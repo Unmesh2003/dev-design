@@ -1,0 +1,12 @@
+config_version=5
+
+[application]
+
+config/name="demo.1"
+run/main_scene="res://scean/game.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://icon.svg"
+
+[rendering]
+
+renderer/rendering_method="mobile"
