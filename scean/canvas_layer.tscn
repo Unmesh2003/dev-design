@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6alii4530cyh"]
+
+[ext_resource type="Texture2D" uid="uid://dm1w3sik3vy0d" path="res://aseets/coin.png" id="1_6og4u"]
+[ext_resource type="Texture2D" uid="uid://dc84n5g0okwnx" path="res://aseets/pngegg.png" id="2_3m6to"]
+[ext_resource type="Script" path="res://scripts/health_container.gd" id="2_140wy"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+scale = Vector2(0.2, 0.2)
+transform = Transform2D(0.2, 0, 0, 0.2, 0, 0)
+
+[node name="CoinContainer" type="HBoxContainer" parent="."]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 130.0
+offset_bottom = 90.0
+scale = Vector2(0.5, 0.5)
+
+[node name="TextureRect" type="TextureRect" parent="CoinContainer"]
+layout_mode = 2
+texture = ExtResource("1_6og4u")
+expand_mode = 2
+
+[node name="Label" type="Label" parent="CoinContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 63
+text = "0"
+
+[node name="HealthContainer" type="HBoxContainer" parent="."]
+offset_top = 45.0
+offset_right = 50.0
+offset_bottom = 95.0
+script = ExtResource("2_140wy")
+
+[node name="TextureRect" type="TextureRect" parent="HealthContainer"]
+layout_mode = 2
+texture = ExtResource("2_3m6to")
+expand_mode = 2
