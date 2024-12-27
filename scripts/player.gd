@@ -19,7 +19,8 @@ var is_fast_jumping = false  # Flag to check if the player is performing a fast 
 var jump_count = 0
 @onready var coincount = $"../CanvasLayer/CoinContainer/Label"
 func _ready() -> void:
-	$"../../../CanvasLayer/HealthContainer".update_items(health)
+	$"../CanvasLayer/HealthContainer".update_items(health)
+	#$"../CanvasLayer"
 	# Ensure the attack animation is not playing at the start
 	$AttackArea/CollisionShape2D.disabled = true # Ensure the attack collision is not active at the start
 	animated_sprite.play("idle")
@@ -31,7 +32,7 @@ func take_damage(amount: int) -> void:
 	print("Player health:", health)
 	var heart=$HealthContainer
 	#heart.update_items(health)$"../CanvasLayer/HealthContainer".update_items(health)
-	$"../../../CanvasLayer/HealthContainer".update_items(health)
+	$"../CanvasLayer/HealthContainer".update_items(health)
 	#direction = direct
 	#print("direct: ",direct)
 	#animated_sprite.play("knockback")

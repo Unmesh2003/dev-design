@@ -1,12 +1,11 @@
-[gd_scene load_steps=15 format=3 uid="uid://bor0fdvpkjq4v"]
+[gd_scene load_steps=14 format=3 uid="uid://bor0fdvpkjq4v"]
 
-[ext_resource type="PackedScene" uid="uid://ds3abad3y001c" path="res://scean/coin.tscn" id="2_7mq4n"]
-[ext_resource type="PackedScene" uid="uid://2qa35uiwrfdt" path="res://scean/heal.tscn" id="3_vmlcu"]
-[ext_resource type="PackedScene" uid="uid://rnump7ont8yo" path="res://scean/player.tscn" id="6_jj1wx"]
-[ext_resource type="PackedScene" uid="uid://cl806jmwnucfh" path="res://scean/lantern.tscn" id="7_7ghfc"]
+[ext_resource type="PackedScene" uid="uid://ds3abad3y001c" path="res://scean/coin.tscn" id="2_eqpfa"]
+[ext_resource type="PackedScene" uid="uid://2qa35uiwrfdt" path="res://scean/heal.tscn" id="3_8mtv4"]
+[ext_resource type="PackedScene" uid="uid://dod0kx5mnh2co" path="res://scean/pirate.tscn" id="4_7h180"]
+[ext_resource type="PackedScene" uid="uid://rnump7ont8yo" path="res://scean/player.tscn" id="6_ml5es"]
 [ext_resource type="Script" path="res://scripts/killzone.gd" id="8_onygq"]
 [ext_resource type="PackedScene" uid="uid://b6alii4530cyh" path="res://scean/canvas_layer.tscn" id="9_2in41"]
-[ext_resource type="PackedScene" uid="uid://dod0kx5mnh2co" path="res://scean/pirate.tscn" id="9_5wvix"]
 [ext_resource type="PackedScene" uid="uid://dp8f8w0r8btnk" path="res://scean/tile_map.tscn" id="12_q6q24"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vev55"]
@@ -39,25 +38,22 @@ energy = 0.4
 
 [node name="coins" type="Node" parent="."]
 
-[node name="coin" parent="coins" instance=ExtResource("2_7mq4n")]
-position = Vector2(3800, -716)
+[node name="coin" parent="coins" instance=ExtResource("2_eqpfa")]
+position = Vector2(2591, 62)
 
-[node name="coin2" parent="coins" instance=ExtResource("2_7mq4n")]
-position = Vector2(4326, -682)
+[node name="coin2" parent="coins" instance=ExtResource("2_eqpfa")]
+position = Vector2(3922, -681)
 
 [node name="healings" type="Node" parent="."]
 
-[node name="healing_bottle" parent="healings" instance=ExtResource("3_vmlcu")]
-position = Vector2(2580, 13)
+[node name="healing_bottle" parent="healings" instance=ExtResource("3_8mtv4")]
+position = Vector2(3059, -118)
+
+[node name="healing_bottle2" parent="healings" instance=ExtResource("3_8mtv4")]
+position = Vector2(4545, -753)
 
 [node name="TileMap" parent="." instance=ExtResource("12_q6q24")]
 z_index = -1
-
-[node name="pirate" parent="." instance=ExtResource("9_5wvix")]
-position = Vector2(26955, 1076)
-
-[node name="lantern" parent="." instance=ExtResource("7_7ghfc")]
-position = Vector2(669, 508)
 
 [node name="killzones" type="Node" parent="."]
 
@@ -74,9 +70,6 @@ script = ExtResource("8_onygq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzones/killzone7"]
 shape = SubResource("RectangleShape2D_dhr7m")
-
-[node name="Player" parent="killzones/killzone7" instance=ExtResource("6_jj1wx")]
-position = Vector2(7458.25, 700)
 
 [node name="killzone6" type="Area2D" parent="killzones"]
 position = Vector2(4330, 792)
@@ -117,9 +110,11 @@ script = ExtResource("8_onygq")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzones/killzone2"]
 shape = SubResource("CircleShape2D_vev55")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(18553, 160)
-zoom = Vector2(0.2, 0.2)
+[node name="Player" parent="." instance=ExtResource("6_ml5es")]
+position = Vector2(25973, 1066)
+
+[node name="pirate" parent="." instance=ExtResource("4_7h180")]
+position = Vector2(28075, 1084)
 
 [connection signal="body_entered" from="killzones/killzone" to="killzones/killzone" method="_on_body_entered"]
 [connection signal="body_entered" from="killzones/killzone7" to="killzones/killzone7" method="_on_body_entered"]
@@ -128,5 +123,3 @@ zoom = Vector2(0.2, 0.2)
 [connection signal="body_entered" from="killzones/killzone4" to="killzones/killzone4" method="_on_body_entered"]
 [connection signal="body_entered" from="killzones/killzone3" to="killzones/killzone3" method="_on_body_entered"]
 [connection signal="body_entered" from="killzones/killzone2" to="killzones/killzone2" method="_on_body_entered"]
-
-[editable path="CanvasLayer"]

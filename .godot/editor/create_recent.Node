@@ -1,0 +1,14 @@
+Camera2D
+CollisionShape2D
+AnimationPlayer
+Node
+Area2D
+Sprite2D
+ShapeCast2D
+CharacterBody2D
+AnimatedSprite2D
+RayCast2D
+Node2D
+LightOccluder2D
+DirectionalLight2D
+PointLight2D
