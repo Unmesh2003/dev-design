@@ -455,7 +455,7 @@ shape = SubResource("RectangleShape2D_mnpn0")
 disabled = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(0, -200)
+position = Vector2(460, -368)
 zoom = Vector2(0.3, 0.3)
 position_smoothing_enabled = true
 

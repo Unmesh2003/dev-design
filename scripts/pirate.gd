@@ -118,6 +118,8 @@ func _on_animated_sprite_2d_animation_finished() -> void:
 			player_position=body.position
 			if body.is_in_group("player"):
 				temp = true
+				print(body)
+				print("attacking")
 				body.take_damage(1)
 		if temp != true:
 			is_attacking=false

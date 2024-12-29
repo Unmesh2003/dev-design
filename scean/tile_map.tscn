@@ -2409,7 +2409,7 @@ sources/0 = SubResource("TileSetAtlasSource_ripbl")
 size = Vector2(871.5, 115)
 
 [sub_resource type="Animation" id="Animation_pl118"]
-length = 0.001
+length = 3.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -2425,7 +2425,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_xmf5y"]
 resource_name = "move"
-length = 2.0
+length = 4.0
 loop_mode = 2
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -2434,7 +2434,7 @@ tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 2),
+"times": PackedFloat32Array(0, 4),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(16000, -544), Vector2(21000, -544)]
@@ -2590,7 +2590,7 @@ texture = ExtResource("11_yh4jk")
 [node name="stone" type="Node" parent="."]
 
 [node name="stone 1" type="Sprite2D" parent="stone"]
-position = Vector2(-4914, 758)
+position = Vector2(-4941, 769)
 scale = Vector2(0.247619, 0.247619)
 texture = ExtResource("7_iubdw")
 
@@ -2660,11 +2660,13 @@ texture = ExtResource("4_odv61")
 [node name="cactus" type="Node" parent="."]
 
 [node name="cactus" type="Sprite2D" parent="cactus"]
+z_index = -1
 position = Vector2(5231, -381)
 scale = Vector2(0.354203, 0.354203)
 texture = ExtResource("3_ywryf")
 
 [node name="cactus2" type="Sprite2D" parent="cactus"]
+z_index = -1
 position = Vector2(4654, 888)
 rotation = 1.55509
 scale = Vector2(0.587492, 0.587492)

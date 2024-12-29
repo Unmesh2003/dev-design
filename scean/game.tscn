@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://ds3abad3y001c" path="res://scean/coin.tscn" id="2_eqpfa"]
 [ext_resource type="PackedScene" uid="uid://2qa35uiwrfdt" path="res://scean/heal.tscn" id="3_8mtv4"]
-[ext_resource type="PackedScene" uid="uid://dod0kx5mnh2co" path="res://scean/pirate.tscn" id="4_7h180"]
+[ext_resource type="PackedScene" uid="uid://dod0kx5mnh2co" path="res://scean/kallu.tscn" id="4_7h180"]
 [ext_resource type="PackedScene" uid="uid://rnump7ont8yo" path="res://scean/player.tscn" id="6_ml5es"]
 [ext_resource type="Script" path="res://scripts/killzone.gd" id="8_onygq"]
 [ext_resource type="PackedScene" uid="uid://b6alii4530cyh" path="res://scean/canvas_layer.tscn" id="9_2in41"]
@@ -111,7 +111,7 @@ script = ExtResource("8_onygq")
 shape = SubResource("CircleShape2D_vev55")
 
 [node name="Player" parent="." instance=ExtResource("6_ml5es")]
-position = Vector2(25973, 1066)
+position = Vector2(25713, 991)
 
 [node name="pirate" parent="." instance=ExtResource("4_7h180")]
 position = Vector2(28075, 1084)

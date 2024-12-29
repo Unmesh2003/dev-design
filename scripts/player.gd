@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const SPEED = 400.0
+const SPEED = 700.0
 const JUMP_VELOCITY = -2252.0  # Very high jump velocity for a fast, short jump
 const GRAVITY = 4000.0  # Strong gravity to pull the player down fast
 const FAST_GRAVITY = 6000.0  # Even stronger gravity for quick landing

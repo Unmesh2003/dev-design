@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwvlb454ipnmn"
-path="res://.godot/imported/pirate_attack.png-fb377334e3b74ff29fb1dab25808bc58.ctex"
+uid="uid://dyfwym8sf3mmn"
+path="res://.godot/imported/sprite sheet walk cycle.png-015fe1b0bda4c2ac24d465be78679155.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://aseets/pirate_attack.png"
-dest_files=["res://.godot/imported/pirate_attack.png-fb377334e3b74ff29fb1dab25808bc58.ctex"]
+source_file="res://aseets/sprite sheet walk cycle.png"
+dest_files=["res://.godot/imported/sprite sheet walk cycle.png-015fe1b0bda4c2ac24d465be78679155.ctex"]
 
 [params]
 

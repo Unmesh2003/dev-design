@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlvylbo63qy1p"
-path="res://.godot/imported/die animation pirate.png-e066d08583d3fdc85da229505a5b14e1.ctex"
+uid="uid://d0vm7ctf5favs"
+path="res://.godot/imported/kaluaa die.png-08612cd726ef93fbc8a1c3e4fd487ab9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://aseets/die animation pirate.png"
-dest_files=["res://.godot/imported/die animation pirate.png-e066d08583d3fdc85da229505a5b14e1.ctex"]
+source_file="res://aseets/kaluaa die.png"
+dest_files=["res://.godot/imported/kaluaa die.png-08612cd726ef93fbc8a1c3e4fd487ab9.ctex"]
 
 [params]
 

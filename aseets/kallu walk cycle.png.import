@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gx54kdrn4cy"
-path="res://.godot/imported/idle_pirate.png-af4777735caf1f523a060dca38bd996c.ctex"
+uid="uid://b4ltqjib3owb2"
+path="res://.godot/imported/kallu walk cycle.png-da2ce7fea29af28f3a9b6ccf28458075.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://aseets/idle_pirate.png"
-dest_files=["res://.godot/imported/idle_pirate.png-af4777735caf1f523a060dca38bd996c.ctex"]
+source_file="res://aseets/kallu walk cycle.png"
+dest_files=["res://.godot/imported/kallu walk cycle.png-da2ce7fea29af28f3a9b6ccf28458075.ctex"]
 
 [params]
 
