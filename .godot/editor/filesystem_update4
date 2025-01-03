@@ -1,0 +1,10 @@
+res://scean/game.tscn
+res://scean/tile_map.tscn
+res://scean/kallu.tscn
+res://scean/coin.tscn
+res://scean/heal.tscn
+res://scean/player.tscn
+res://scean/mashall.tscn
+res://scean/save point.tscn
+res://temple.tscn
+res://scripts/player.gd

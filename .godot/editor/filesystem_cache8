@@ -1,0 +1,96 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1735915908
+icon.svg::CompressedTexture2D::6466775179708746297::1735489642::1735629824::1::::<><>::
+mashall.tscn::PackedScene::1305142955892991046::1735720092::0::1::::<><>::uid://7uhfd3ahusf3::::res://aseets/mashall.png
+save point sprite set.png::CompressedTexture2D::1056366376579558705::1735828663::1735828617::1::::<><>::
+temple.tscn::PackedScene::1616849039121659579::1735915708::0::1::::<><>::uid://brefh8iltkeaj::::res://aseets/castle backround.png<>uid://c35dijinge5dv::::res://aseets/castle backround pillers.png<>uid://7uhfd3ahusf3::::res://aseets/mashall.png<>uid://mfmg7ol3tt::::res://aseets/ganapati.png<>uid://bpxorvaq0tqxo::::res://aseets/stone tile set.png<>uid://rnump7ont8yo::::res://scean/player.tscn
+unsaved save point.png::CompressedTexture2D::3257506260569816779::1735828663::1735828616::1::::<><>::
+::res://aseets/::1735914508
+1.jpg::CompressedTexture2D::2727799122256795299::1735489642::1735629820::1::::<><>::
+2.png::CompressedTexture2D::4992803381671932034::1735489642::1735629823::1::::<><>::
+3.png::CompressedTexture2D::9151534283833610385::1735489642::1735629822::1::::<><>::
+4.png::CompressedTexture2D::1054713573065135384::1735489642::1735629824::1::::<><>::
+5.png::CompressedTexture2D::5012569661863806589::1735489642::1735629823::1::::<><>::
+33 jump animation vikram.png::CompressedTexture2D::8929225106142123312::1735489642::1735629822::1::::<><>::
+55.png::CompressedTexture2D::493687704473570170::1735489642::1735629831::1::::<><>::
+attack_vikram.png::CompressedTexture2D::6785752747750974633::1735489642::1735629823::1::::<><>::
+blue backround.png::CompressedTexture2D::5427257660397616560::1735914508::1735914508::1::::<><>::
+Bottle.png::CompressedTexture2D::5072618957932254237::1735489642::1735629822::1::::<><>::
+castle backround pillers.png::CompressedTexture2D::6800257244869897875::1735721342::1735721343::1::::<><>::
+castle backround.png::CompressedTexture2D::3588206368231625081::1735721333::1735721334::1::::<><>::
+coin.png::CompressedTexture2D::8056588730682808797::1735489642::1735629822::1::::<><>::
+ganapati.png::CompressedTexture2D::738173904857921::1735914220::1735914220::1::::<><>::
+kallu walk cycle.png::CompressedTexture2D::4445787985207754085::1735489642::1735629823::1::::<><>::
+kaluaa die.png::CompressedTexture2D::8958120958848970948::1735489642::1735629824::1::::<><>::
+mashall.png::CompressedTexture2D::2287764700251857054::1735720014::1735721248::1::::<><>::
+new attack.png::CompressedTexture2D::3679827748354091256::1735728833::1735737274::1::::<><>::
+ong.png::CompressedTexture2D::532042088545376917::1735489642::1735629823::1::::<><>::
+pngegg.png::CompressedTexture2D::7369549798474675705::1735489642::1735629823::1::::<><>::
+Pot.png::CompressedTexture2D::9201597707457460171::1735489642::1735629823::1::::<><>::
+save point sprite set.png::CompressedTexture2D::1334899663102003675::1735828674::1735828675::1::::<><>::
+sprite sheet walk cycle.png::CompressedTexture2D::8855495502141340549::1735489642::1735629824::1::::<><>::
+sprite_sheet (1).png::CompressedTexture2D::7767862329352894410::1735663675::1735663619::1::::<><>::
+sprite_sheet (2).png::CompressedTexture2D::7204795820200958125::1735663766::1735663776::1::::<><>::
+stone tile set.png::CompressedTexture2D::3487615526753569668::1735913592::1735913592::1::::<><>::
+Street_Lantern.png::CompressedTexture2D::1724559175138108336::1735489642::1735629823::1::::<><>::
+trees and pillers.png::CompressedTexture2D::7053704816025062460::1735489642::1735629825::1::::<><>::
+unsaved save point.png::CompressedTexture2D::7345941592759794926::1735828674::1735828674::1::::<><>::
+Vikram Idle Animation.png::CompressedTexture2D::4427149601133664431::1735741349::1735741350::1::::<><>::
+vikram jump anfd attack.png::CompressedTexture2D::5105020990736742550::1735740635::1735740636::1::::<><>::
+walk_vikram.png::CompressedTexture2D::3495967262004837346::1735489642::1735629825::1::::<><>::
+::res://aseets/backround game/::1735629831
+fore ground tree.png::CompressedTexture2D::5177395361549401966::1735489642::1735629830::1::::<><>::
+fore ground.png::CompressedTexture2D::3343845827891182405::1735489642::1735629829::1::::<><>::
+grass 1.png::CompressedTexture2D::9083506013466387651::1735489642::1735629829::1::::<><>::
+grass 2.png::CompressedTexture2D::2278328895148944457::1735489642::1735629830::1::::<><>::
+grass.png::CompressedTexture2D::1064840199054582001::1735489642::1735629830::1::::<><>::
+main trees.png::CompressedTexture2D::9148664766304721089::1735489642::1735629831::1::::<><>::
+moon.png::CompressedTexture2D::954669711064133478::1735489642::1735629831::1::::<><>::
+new backround.jpg::CompressedTexture2D::1748917576506099980::1735489642::1735629819::1::::<><>::
+rocks.png::CompressedTexture2D::8082460725435099238::1735489642::1735629818::1::::<><>::
+tile set.png::CompressedTexture2D::3175819042150632272::1735489642::1735629818::1::::<><>::
+tree 1.png::CompressedTexture2D::1571448669234272262::1735489642::1735629821::1::::<><>::
+tree 2.png::CompressedTexture2D::4238512464278463979::1735489642::1735629820::1::::<><>::
+tree 3.png::CompressedTexture2D::3678349109078504494::1735489642::1735629820::1::::<><>::
+tree 4.png::CompressedTexture2D::4456560593675473282::1735489642::1735629821::1::::<><>::
+::res://aseets/backround game/obstacles/::1735629828
+arrow.png::CompressedTexture2D::4480128017976299290::1735489642::1735629824::1::::<><>::
+cactus.png::CompressedTexture2D::1862674271934388539::1735489642::1735629824::1::::<><>::
+obstacle 2.png::CompressedTexture2D::2104934149777770932::1735489642::1735629825::1::::<><>::
+obstacle 3.png::CompressedTexture2D::8934219863473135892::1735489642::1735629825::1::::<><>::
+obstacle.png::CompressedTexture2D::1681066104836280053::1735489642::1735629825::1::::<><>::
+poisonous tree 2.png::CompressedTexture2D::8927436296518373248::1735489642::1735629825::1::::<><>::
+pottery 1.png::CompressedTexture2D::3733041541722263528::1735489642::1735629825::1::::<><>::
+pottery 2.png::CompressedTexture2D::1498609093078360624::1735489642::1735629825::1::::<><>::
+pottrey 3.png::CompressedTexture2D::8413369058203138817::1735489642::1735629825::1::::<><>::
+skull.png::CompressedTexture2D::1757017354090054464::1735489642::1735629827::1::::<><>::
+stone 1.png::CompressedTexture2D::1808254154620989170::1735489642::1735629827::1::::<><>::
+stone 2.png::CompressedTexture2D::8228974317755275606::1735489642::1735629826::1::::<><>::
+stone 3.png::CompressedTexture2D::8840435634822044009::1735489642::1735629826::1::::<><>::
+tree branch.png::CompressedTexture2D::105139968177238199::1735489642::1735629827::1::::<><>::
+tree.png::CompressedTexture2D::4861520173598700532::1735489642::1735629828::1::::<><>::
+trees poison.png::CompressedTexture2D::7675401750113143481::1735489642::1735629827::1::::<><>::
+wall 1.png::CompressedTexture2D::303950072220168271::1735489642::1735629827::1::::<><>::
+::res://aseets/backround game/vikram sprite sheet/::1735629828
+Vikarm Attack.png::CompressedTexture2D::8071443276921161423::1735489642::1735629828::1::::<><>::
+Vikarm Single jump.png::CompressedTexture2D::5682260956687932161::1735489642::1735629828::1::::<><>::
+Vikram Walk Cycle.png::CompressedTexture2D::4573722581002997333::1735629527::1735629828::1::::<><>::
+::res://scean/::1735915701
+canvas_layer.tscn::PackedScene::4562957476131370311::1735489642::0::1::::<><>::uid://dm1w3sik3vy0d::::res://aseets/coin.png<>uid://dc84n5g0okwnx::::res://aseets/pngegg.png<>res://scripts/health_container.gd
+coin.tscn::PackedScene::8480465605411154274::1735915629::0::1::::<><>::uid://dm1w3sik3vy0d::::res://aseets/coin.png<>res://scripts/coin.gd
+game.tscn::PackedScene::3405685960939467831::1735915701::0::1::::<><>::uid://ds3abad3y001c::::res://scean/coin.tscn<>uid://2qa35uiwrfdt::::res://scean/heal.tscn<>uid://dod0kx5mnh2co::::res://scean/kallu.tscn<>uid://cjlae1xos20n1::::res://aseets/blue backround.png<>uid://rnump7ont8yo::::res://scean/player.tscn<>uid://caejmj6w57ols::::res://scean/save point.tscn<>res://scripts/killzone.gd<>uid://b6alii4530cyh::::res://scean/canvas_layer.tscn<>uid://dp8f8w0r8btnk::::res://scean/tile_map.tscn
+heal.tscn::PackedScene::1928180431511317365::1735915630::0::1::::<><>::res://scripts/heal.gd<>uid://cejhj73ypqt4h::::res://aseets/Bottle.png
+kallu.tscn::PackedScene::8149636032976236102::1735915629::0::1::::<><>::res://scripts/pirate.gd<>uid://dyfwym8sf3mmn::::res://aseets/sprite sheet walk cycle.png<>uid://d0vm7ctf5favs::::res://aseets/kaluaa die.png<>uid://b4ltqjib3owb2::::res://aseets/kallu walk cycle.png
+lantern.tscn::PackedScene::5614616889984288873::1735489642::0::1::::<><>::uid://ytnicyyvma5e::::res://aseets/Street_Lantern.png
+mashall.tscn::PackedScene::548811106956476148::1735915630::0::1::::<><>::uid://7uhfd3ahusf3::::res://aseets/mashall.png
+parallax_background.tscn::PackedScene::6093277924468941549::1735489642::0::1::::<><>::uid://y6goganls4jg::::res://aseets/backround game/new backround.jpg<>uid://b4q15ws7ipesw::::res://aseets/backround game/tree 4.png<>uid://bsn24wrk5hh8y::::res://aseets/backround game/tree 3.png<>uid://b1nfxfjj528gd::::res://aseets/backround game/tree 2.png<>uid://nupjg5dxpjsw::::res://aseets/backround game/moon.png<>uid://wnhsaw00drsw::::res://aseets/backround game/tree 1.png
+player.tscn::PackedScene::1221283859969763178::1735915630::0::1::::<><>::res://scripts/player.gd<>uid://bsoshwstgytx5::::res://aseets/new attack.png<>uid://clxkl6f3gxe0l::::res://aseets/attack ok.png<>uid://d0hnbeb76ea4g::::res://aseets/33 jump animation vikram.png<>uid://bp2qcm71kx2vu::::res://aseets/walk_vikram.png<>uid://b6fssplqw1rqb::::res://aseets/backround game/vikram sprite sheet/Vikram Walk Cycle.png
+save point.tscn::PackedScene::4781667282504230048::1735915630::0::1::::<><>::uid://tavuqnrsrjff::::res://aseets/save point sprite set.png<>uid://dcwot5ac5snte::::res://aseets/unsaved save point.png
+tile_map.tscn::PackedScene::8280582882646832008::1735915629::0::1::::<><>::uid://blinjmvn72io3::::res://aseets/backround game/tile set.png<>uid://d2oeatthopvhj::::res://aseets/backround game/grass 1.png<>uid://1sj8c6pqedhb::::res://aseets/backround game/obstacles/cactus.png<>uid://cbi7r6gri8f61::::res://aseets/backround game/obstacles/tree.png<>uid://x7k6bubu8hhd::::res://aseets/backround game/obstacles/obstacle.png<>uid://dhma0lysp6ngr::::res://aseets/backround game/obstacles/trees poison.png<>uid://006xgdago01k::::res://aseets/backround game/obstacles/stone 1.png<>uid://dx7mxh5qw3t0l::::res://aseets/backround game/obstacles/stone 3.png<>uid://dpigafqrh1iru::::res://aseets/backround game/obstacles/stone 2.png<>uid://y6goganls4jg::::res://aseets/backround game/new backround.jpg<>uid://vl64w8ccf2o7::::res://aseets/backround game/obstacles/pottery 2.png<>uid://b4q15ws7ipesw::::res://aseets/backround game/tree 4.png<>uid://btgkwb87ysghs::::res://aseets/backround game/obstacles/pottery 1.png<>uid://bsn24wrk5hh8y::::res://aseets/backround game/tree 3.png<>uid://b1nfxfjj528gd::::res://aseets/backround game/tree 2.png<>uid://nupjg5dxpjsw::::res://aseets/backround game/moon.png<>uid://wnhsaw00drsw::::res://aseets/backround game/tree 1.png<>uid://eliapma7o2dn::::res://aseets/backround game/obstacles/wall 1.png
+::res://scripts/::1735737380
+coin.gd::GDScript::-1::1735489642::0::1::::<>Area2D<>::
+heal.gd::GDScript::-1::1735489642::0::1::::<>Area2D<>::
+health_container.gd::GDScript::-1::1735489642::0::1::::<>HBoxContainer<>::
+killzone.gd::GDScript::-1::1735489642::0::1::::<>Area2D<>::
+pirate.gd::GDScript::-1::1735489642::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1735737380::0::1::::<>CharacterBody2D<>::
