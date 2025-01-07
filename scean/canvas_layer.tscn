@@ -11,8 +11,8 @@ transform = Transform2D(0.2, 0, 0, 0.2, 0, 0)
 [node name="CoinContainer" type="HBoxContainer" parent="."]
 offset_left = 3.0
 offset_top = 3.0
-offset_right = 130.0
-offset_bottom = 90.0
+offset_right = 647.0
+offset_bottom = 377.0
 scale = Vector2(0.5, 0.5)
 
 [node name="TextureRect" type="TextureRect" parent="CoinContainer"]
@@ -22,13 +22,13 @@ expand_mode = 2
 
 [node name="Label" type="Label" parent="CoinContainer"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 63
+theme_override_font_sizes/font_size = 300
 text = "0"
 
 [node name="HealthContainer" type="HBoxContainer" parent="."]
-offset_top = 45.0
-offset_right = 50.0
-offset_bottom = 95.0
+offset_top = 190.0
+offset_right = 240.0
+offset_bottom = 430.0
 script = ExtResource("2_140wy")
 
 [node name="TextureRect" type="TextureRect" parent="HealthContainer"]

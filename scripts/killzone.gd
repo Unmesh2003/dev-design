@@ -12,6 +12,7 @@ func _process(delta: float) -> void:
 
 
 func _on_body_entered(body: Node2D) -> void:
-	print("cactus area body enterd")
+	#print("cactus area body enterd")
 	if body.is_class("CharacterBody2D"):
 		body.take_damage(10)
+		

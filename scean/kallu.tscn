@@ -263,7 +263,7 @@ height = 302.0
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7ye80"]
 size = Vector2(1690.5, 294.313)
 
-[node name="pirate" type="Node2D"]
+[node name="kallu" type="Node2D"]
 script = ExtResource("1_v726t")
 
 [node name="AttackArea" type="Area2D" parent="." groups=["damage"]]
@@ -277,10 +277,10 @@ shape = SubResource("CapsuleShape2D_8i023")
 position = Vector2(-9, -157)
 scale = Vector2(0.770769, 0.770769)
 sprite_frames = SubResource("SpriteFrames_bqli3")
-animation = &"attack"
+animation = &"run"
 autoplay = "idle"
 frame = 1
-frame_progress = 0.431027
+frame_progress = 0.248486
 flip_h = true
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
@@ -298,9 +298,6 @@ position = Vector2(0, -150)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea"]
 shape = SubResource("RectangleShape2D_7ye80")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(0.5, 0.5)
 
 [connection signal="area_entered" from="AttackArea" to="." method="_on_attack_area_area_entered"]
 [connection signal="area_shape_entered" from="AttackArea" to="." method="_on_attack_area_area_shape_entered"]

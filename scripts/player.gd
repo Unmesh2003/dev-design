@@ -6,60 +6,62 @@ const GRAVITY = 4000.0  # Strong gravity to pull the player down fast
 const FAST_GRAVITY = 6000.0  # Even stronger gravity for quick landing
 const JUMP_ANIMATION_SPEED = 0.2  # Speed multiplier for faster, snappy jump animation
 const AIR_CONTROL = 0.0  # No horizontal control in the air for a quick, straight jump
-var health=5
+var health=GameData.health
 const MAX_JUMPS = 2
 var health_max=10
 var dead=false
-var coins=0
+var coins=GameData.coins
 var direction =null
-#@onready var heart=$HealthContainer
 @onready var animated_sprite = $AnimatedSprite2D
 var is_attacking = false  # Flag to track whether the player is attacking
 var is_fast_jumping = false  # Flag to check if the player is performing a fast jump
 var jump_count = 0
-@onready var coincount = $"../CanvasLayer/CoinContainer/Label"
+@onready var coincount = $"CanvasLayer/CoinContainer/Label"
+var last_save_point: Vector2 = Vector2(-4150, 906)
+
 func _ready() -> void:
-	$"../CanvasLayer/HealthContainer".update_items(health)
-	#$"../CanvasLayer"
-	# Ensure the attack animation is not playing at the start
+	position=GameData.save_point
+	GameData.coins=0
+	GameData.health=5
+	$"CanvasLayer/HealthContainer".update_items(health)
+	coincount.text=str(coins)
+
 	$AttackArea/CollisionShape2D.disabled = true # Ensure the attack collision is not active at the start
 	animated_sprite.play("idle")
-#$"../../../CanvasLayer/HealthContainer"
 func take_damage(amount: int) -> void:
 	health-=amount
 	if health<0:
 		health=0
 	print("Player health:", health)
 	var heart=$HealthContainer
-	#heart.update_items(health)$"../CanvasLayer/HealthContainer".update_items(health)
-	$"../CanvasLayer/HealthContainer".update_items(health)
-	#direction = direct
-	#print("direct: ",direct)
-	#animated_sprite.play("knockback")
+	$"CanvasLayer/HealthContainer".update_items(health)
+	GameData.health=health
 	velocity.x= direction * SPEED
-	#animated_sprite.play("knockback")
 	if health==0:
 		dead=true
 		print("restarting")
 		print('YOU LOOSE')
-		get_tree().reload_current_scene()
-		$"../CanvasLayer/HealthContainer".update_items(health)
+		GameData.health=5
+		position=GameData.save_point
+		health=5
+		$"CanvasLayer/HealthContainer".update_items(health)
 		
+func _on_save_point_activated(position: Vector2):
+	last_save_point = position
+	print("Save point activated at: ", position)
 func heal(amount: int):
 	if health < health_max:
 		health+=amount
-		$"../CanvasLayer/HealthContainer".update_items(health)
+		$"CanvasLayer/HealthContainer".update_items(health)
 	
 		
 func count_coin(inc: int):
 	coins=coins+1
-	#print(str(coins))
 	coincount.text=str(coins)
-	#print(coins)
+	GameData.coins=coins
+	print(GameData.coins)
 
 func _physics_process(delta: float) -> void:
-	# Apply gravity if the character is not on the floor
-	#if not animated_sprite.animation == "knockback":
 	velocity.x=0
 	if not is_on_floor():
 		if is_fast_jumping:
@@ -93,12 +95,9 @@ func _physics_process(delta: float) -> void:
 
 	# Handle jump input
 	if Input.is_action_just_pressed("jump") and jump_count < MAX_JUMPS:
-		#print("jumping")
 		# Initiate fast jump and animation
 		is_fast_jumping = true
 		velocity.y = JUMP_VELOCITY  # Apply the fast, sharp jump velocity
-		#animated_sprite.play("jump")  # Play quick jump animation
-		#animated_sprite.speed_scale = JUMP_ANIMATION_SPEED  # Increase animation speed
 		jump_count += 1  # Increment the jump count
 
 	# Get horizontal input direction: -1, 0, 1
@@ -108,13 +107,9 @@ func _physics_process(delta: float) -> void:
 	if direction > 0:
 		animated_sprite.flip_h = false
 		$AttackArea.position.x = abs($AttackArea.position.x)
-		#scale.x=1
-		#$AttackArea.scale.x=1
 	elif direction < 0:
 		animated_sprite.flip_h = true
 		$AttackArea.position.x = -abs($AttackArea.position.x)
-		#scale.x=-1
-		#$AttackArea.scale.x=1
 
 	# Play movement animations when not attacking
 	if not is_attacking:

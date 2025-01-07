@@ -3,16 +3,16 @@
 [ext_resource type="PackedScene" uid="uid://ds3abad3y001c" path="res://scean/coin.tscn" id="2_eqpfa"]
 [ext_resource type="PackedScene" uid="uid://2qa35uiwrfdt" path="res://scean/heal.tscn" id="3_8mtv4"]
 [ext_resource type="PackedScene" uid="uid://dod0kx5mnh2co" path="res://scean/kallu.tscn" id="4_7h180"]
+[ext_resource type="PackedScene" uid="uid://0ac4yywgy1ue" path="res://scean/tile_map_new.tscn" id="6_1qt36"]
 [ext_resource type="PackedScene" uid="uid://rnump7ont8yo" path="res://scean/player.tscn" id="6_ml5es"]
+[ext_resource type="PackedScene" uid="uid://cijti4yk4uil8" path="res://scean/save_point.tscn" id="7_2g4wp"]
 [ext_resource type="Script" path="res://scripts/killzone.gd" id="8_onygq"]
-[ext_resource type="PackedScene" uid="uid://b6alii4530cyh" path="res://scean/canvas_layer.tscn" id="9_2in41"]
-[ext_resource type="PackedScene" uid="uid://dp8f8w0r8btnk" path="res://scean/tile_map.tscn" id="12_q6q24"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vev55"]
 radius = 792.228
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dhr7m"]
-size = Vector2(5076.5, 1266)
+size = Vector2(5837, 1266)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ku3fp"]
 radius = 415.023
@@ -28,10 +28,6 @@ radius = 554.0
 height = 1418.0
 
 [node name="game" type="Node2D"]
-
-[node name="CanvasLayer" parent="." instance=ExtResource("9_2in41")]
-scale = Vector2(1, 1)
-transform = Transform2D(1, 0, 0, 1, 0, 0)
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
 energy = 0.4
@@ -52,9 +48,6 @@ position = Vector2(3059, -118)
 [node name="healing_bottle2" parent="healings" instance=ExtResource("3_8mtv4")]
 position = Vector2(4545, -753)
 
-[node name="TileMap" parent="." instance=ExtResource("12_q6q24")]
-z_index = -1
-
 [node name="killzones" type="Node" parent="."]
 
 [node name="killzone" type="Area2D" parent="killzones"]
@@ -69,6 +62,7 @@ position = Vector2(18521.8, 347)
 script = ExtResource("8_onygq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzones/killzone7"]
+position = Vector2(3.69922, 0)
 shape = SubResource("RectangleShape2D_dhr7m")
 
 [node name="killzone6" type="Area2D" parent="killzones"]
@@ -110,10 +104,28 @@ script = ExtResource("8_onygq")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzones/killzone2"]
 shape = SubResource("CircleShape2D_vev55")
 
-[node name="Player" parent="." instance=ExtResource("6_ml5es")]
-position = Vector2(25713, 991)
+[node name="TileMap" parent="." instance=ExtResource("6_1qt36")]
 
-[node name="pirate" parent="." instance=ExtResource("4_7h180")]
+[node name="check_points" type="Node" parent="."]
+
+[node name="save_point" parent="check_points" instance=ExtResource("7_2g4wp")]
+z_index = -1
+position = Vector2(-3690, 686)
+
+[node name="save_point2" parent="check_points" instance=ExtResource("7_2g4wp")]
+z_index = -1
+position = Vector2(14837, -953)
+
+[node name="save_point3" parent="check_points" instance=ExtResource("7_2g4wp")]
+position = Vector2(-1420, 675)
+
+[node name="Player" parent="." instance=ExtResource("6_ml5es")]
+position = Vector2(-4287, 909)
+
+[node name="Camera2D2" type="Camera2D" parent="Player"]
+zoom = Vector2(0.3, 0.3)
+
+[node name="kallu" parent="." instance=ExtResource("4_7h180")]
 position = Vector2(28075, 1084)
 
 [connection signal="body_entered" from="killzones/killzone" to="killzones/killzone" method="_on_body_entered"]
