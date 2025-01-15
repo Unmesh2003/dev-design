@@ -1,0 +1,108 @@
+[gd_scene load_steps=13 format=3 uid="uid://cdkn2t57c77at"]
+
+[ext_resource type="Texture2D" uid="uid://vtu1vuwm2mkc" path="res://aseets/falling piller.png" id="1_m7ny2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ag75"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(0, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v2mst"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(500, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3h0i7"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(1000, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rr7x"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(1500, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_od5ec"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(2000, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikguh"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(2500, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nq511"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(3000, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yj2k1"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(3500, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vnwjg"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(4000, 0, 500, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kt1aq"]
+atlas = ExtResource("1_m7ny2")
+region = Rect2(4500, 0, 500, 1000)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ha65v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ag75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v2mst")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3h0i7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5rr7x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_od5ec")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikguh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nq511")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yj2k1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vnwjg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kt1aq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ag75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ag75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ag75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ag75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ag75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ag75")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="falling piller" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-141.875, -228.75)
+scale = Vector2(2.1515, 2.1515)
+sprite_frames = SubResource("SpriteFrames_ha65v")
+autoplay = "default"
+frame_progress = 0.594289

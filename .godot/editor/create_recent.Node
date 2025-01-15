@@ -1,0 +1,14 @@
+AnimatedSprite2D
+Sprite2D
+ParallaxLayer
+ParallaxBackground
+MeshInstance2D
+PointLight2D
+LightOccluder2D
+CanvasModulate
+Camera2D
+Node
+DirectionalLight2D
+Label
+TextureRect
+Area2D
