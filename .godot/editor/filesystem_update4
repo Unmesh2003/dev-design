@@ -1,1 +1,9 @@
+res://scean/game.tscn
+res://scean/kallu.tscn
 res://scean/player.tscn
+res://scean/temple.tscn
+res://scean/canvas_layer.tscn
+res://scean/tile_map_new.tscn
+res://scean/pottery.tscn
+res://scean/coin.tscn
+res://scean/moving_ax.tscn

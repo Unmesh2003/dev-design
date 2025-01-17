@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://b3mnfsqnla4ti"]
+[gd_scene load_steps=37 format=3 uid="uid://b3mnfsqnla4ti"]
 
 [ext_resource type="Texture2D" uid="uid://b1d3lchibnscl" path="res://aseets/castle backround.png" id="1_lyvp0"]
 [ext_resource type="Script" path="res://scripts/temple.gd" id="1_s7jl3"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://d2k83jo6d228l" path="res://aseets/pngwing.com.png" id="10_u3y5w"]
 [ext_resource type="PackedScene" uid="uid://b3jw8qvdt8o1c" path="res://scean/pillers with shadow.tscn" id="12_fcydk"]
 [ext_resource type="PackedScene" uid="uid://crojx4qcr3oad" path="res://scean/gate.tscn" id="12_flu2v"]
+[ext_resource type="PackedScene" uid="uid://cbvttmy47wnac" path="res://scean/pottery.tscn" id="12_x3jj6"]
 
 [sub_resource type="Gradient" id="Gradient_3kc7p"]
 colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
@@ -1173,6 +1174,10 @@ texture = SubResource("GradientTexture2D_72414")
 [node name="Node2D3" parent="." instance=ExtResource("12_flu2v")]
 position = Vector2(6983, 355)
 rotation = 0.0174533
+
+[node name="Node2D4" parent="." instance=ExtResource("12_x3jj6")]
+z_index = 1
+position = Vector2(-838, 841)
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
 [connection signal="body_entered" from="tantrik2" to="." method="_on_tantrik_2_body_entered"]

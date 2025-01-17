@@ -1,6 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://cbvttmy47wnac"]
+[gd_scene load_steps=13 format=3 uid="uid://cbvttmy47wnac"]
 
 [ext_resource type="Texture2D" uid="uid://bmk6dnxfo55r6" path="res://aseets/backround game/breaking potery.png" id="1_5fafh"]
+[ext_resource type="Script" path="res://scripts/pottery.gd" id="1_yleo6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ixk0q"]
 atlas = ExtResource("1_5fafh")
@@ -66,15 +67,24 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dcixy")
 }],
-"loop": true,
+"loop": false,
 "name": &"default",
 "speed": 5.0
 }]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sxik8"]
+size = Vector2(236, 320)
+
+[node name="pottery" type="Area2D"]
+script = ExtResource("1_yleo6")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_j3s6w")
 animation = &"breaking "
-frame = 6
-frame_progress = 1.0
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 43)
+shape = SubResource("RectangleShape2D_sxik8")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

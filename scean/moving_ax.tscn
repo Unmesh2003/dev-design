@@ -1,6 +1,7 @@
-[gd_scene load_steps=24 format=3 uid="uid://vrkh8h8agmeb"]
+[gd_scene load_steps=26 format=3 uid="uid://vrkh8h8agmeb"]
 
 [ext_resource type="Texture2D" uid="uid://8teqqxlrfgou" path="res://aseets/rotating axe.png" id="1_7u1uk"]
+[ext_resource type="Script" path="res://scripts/moving_ax.gd" id="1_13ijk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cddey"]
 atlas = ExtResource("1_7u1uk")
@@ -157,10 +158,20 @@ animations = [{
 "speed": 9.0
 }]
 
-[node name="moving ax" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4hp3w"]
+size = Vector2(533, 394)
+
+[node name="moving ax" type="Area2D"]
+script = ExtResource("1_13ijk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-5.99982, -2.99991)
 scale = Vector2(2.74, 2.74)
 sprite_frames = SubResource("SpriteFrames_tt13j")
-frame_progress = 0.255365
+autoplay = "default"
+frame = 7
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(224, 309)
+rotation = -0.162316
+shape = SubResource("RectangleShape2D_4hp3w")
