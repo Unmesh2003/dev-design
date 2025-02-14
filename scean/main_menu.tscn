@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbbxn2eo1xxa2"]
+
+[ext_resource type="Texture2D" uid="uid://0vbhxhav7pmx" path="res://aseets/main menu.png" id="1_6fasx"]
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_vwi1w"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+script = ExtResource("1_vwi1w")
+
+[node name="play" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.154514
+anchor_top = 0.337963
+anchor_right = 0.240451
+anchor_bottom = 0.436728
+offset_top = 1.52588e-05
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(577, 322)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_6fasx")
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]

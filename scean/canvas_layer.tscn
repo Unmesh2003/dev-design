@@ -1,0 +1,148 @@
+[gd_scene load_steps=7 format=3 uid="uid://b6alii4530cyh"]
+
+[ext_resource type="Texture2D" uid="uid://dm1w3sik3vy0d" path="res://aseets/coin.png" id="1_6og4u"]
+[ext_resource type="Script" path="res://scripts/health_container.gd" id="2_140wy"]
+[ext_resource type="Texture2D" uid="uid://dwjj3f6wyfe0q" path="res://aseets/health bar/4.png" id="3_2g73w"]
+[ext_resource type="Texture2D" uid="uid://befet6g35sxnw" path="res://aseets/key.png" id="4_2o5no"]
+[ext_resource type="Texture2D" uid="uid://e4qqr07qhgli" path="res://aseets/game  gui.jpg" id="5_05yrv"]
+[ext_resource type="Texture2D" uid="uid://br86l5n87y1j" path="res://aseets/pause_icon.png" id="6_2aowt"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+process_mode = 3
+scale = Vector2(0.2, 0.2)
+transform = Transform2D(0.2, 0, 0, 0.2, 0, 0)
+
+[node name="CoinContainer" type="HBoxContainer" parent="."]
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 647.0
+offset_bottom = 377.0
+scale = Vector2(0.5, 0.5)
+
+[node name="TextureRect" type="TextureRect" parent="CoinContainer"]
+layout_mode = 2
+texture = ExtResource("1_6og4u")
+expand_mode = 2
+
+[node name="Label" type="Label" parent="CoinContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 300
+text = "0"
+
+[node name="HealthContainer" type="HBoxContainer" parent="."]
+offset_top = 265.0
+offset_right = 782.0
+offset_bottom = 515.0
+script = ExtResource("2_140wy")
+
+[node name="TextureRect" type="TextureRect" parent="HealthContainer"]
+layout_mode = 2
+texture = ExtResource("3_2g73w")
+expand_mode = 3
+
+[node name="Instruction" type="Label" parent="."]
+offset_left = -25.0
+offset_top = 725.0
+offset_right = 5730.0
+offset_bottom = 1690.0
+theme_override_font_sizes/font_size = 250
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="KeyContainer" type="HBoxContainer" parent="."]
+offset_left = 5.0
+offset_top = 555.0
+offset_right = 420.0
+offset_bottom = 760.0
+
+[node name="TextureRect" type="TextureRect" parent="KeyContainer"]
+layout_mode = 2
+texture = ExtResource("4_2o5no")
+expand_mode = 2
+
+[node name="Label" type="Label" parent="KeyContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 150
+text = "0"
+
+[node name="pause menu" type="TextureRect" parent="."]
+process_mode = 3
+visible = false
+anchors_preset = -1
+anchor_right = 5.0
+anchor_bottom = 5.0
+offset_bottom = 55.0
+texture = ExtResource("5_05yrv")
+
+[node name="home" type="Button" parent="pause menu"]
+process_mode = 3
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.819
+anchor_top = 3.002
+anchor_right = 3.168
+anchor_bottom = 3.41
+offset_left = -8382.44
+offset_top = -7946.59
+offset_right = -14582.7
+offset_bottom = -8955.95
+disabled = true
+
+[node name="restart" type="Button" parent="pause menu"]
+process_mode = 3
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.814
+anchor_top = 2.284
+anchor_right = 3.173
+anchor_bottom = 2.701
+offset_left = -8358.64
+offset_top = -6045.78
+offset_right = -14636.5
+offset_bottom = -7104.79
+disabled = true
+
+[node name="play" type="Button" parent="pause menu"]
+process_mode = 3
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.814
+anchor_top = 1.551
+anchor_right = 3.173
+anchor_bottom = 1.975
+offset_left = -8358.64
+offset_top = -4105.54
+offset_right = -14656.5
+offset_bottom = -5202.63
+disabled = true
+
+[node name="pause" type="TextureRect" parent="."]
+offset_left = 5489.0
+offset_top = 35.0
+offset_right = 5749.0
+offset_bottom = 280.0
+texture = ExtResource("6_2aowt")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="pause" type="Button" parent="pause"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.119
+anchor_right = 0.831
+anchor_bottom = 0.959
+offset_left = 0.0599995
+offset_top = -5.0
+offset_right = -0.0600128
+offset_bottom = 0.0449829
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 300
+
+[connection signal="pressed" from="pause menu/home" to="HealthContainer" method="_on_home_pressed"]
+[connection signal="pressed" from="pause menu/restart" to="HealthContainer" method="_on_restart_pressed"]
+[connection signal="pressed" from="pause menu/play" to="HealthContainer" method="_on_play_pressed"]
+[connection signal="pressed" from="pause/pause" to="HealthContainer" method="_on_button_pressed"]
