@@ -167,7 +167,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"attack",
-"speed": 10.0
+"speed": 15.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -196,7 +196,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"die",
-"speed": 10.0
+"speed": 15.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -225,7 +225,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 10.0
+"speed": 15.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -280,14 +280,11 @@ scale = Vector2(0.770769, 0.770769)
 sprite_frames = SubResource("SpriteFrames_bqli3")
 animation = &"attack"
 autoplay = "idle"
-frame = 7
-frame_progress = 1.0
 flip_h = true
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
 position = Vector2(14, -68)
-enabled = false
-target_position = Vector2(125, 0)
+target_position = Vector2(110, 0)
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(-22, -155)

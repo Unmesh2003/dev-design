@@ -1,3 +1,4 @@
+CollisionShape2D
 Button
 TextureRect
 AnimatedSprite2D
@@ -6,7 +7,6 @@ Camera2D
 TextureProgressBar
 Node
 Sprite2D
-CollisionShape2D
 Area2D
 RayCast2D
 Label

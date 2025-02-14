@@ -1,5 +1,4 @@
 res://scean/kallu.tscn
-res://scripts/main_menu.gd
 res://scean/player.tscn
 res://scean/tile_map_new.tscn
 res://scean/game.tscn

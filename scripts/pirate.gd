@@ -10,10 +10,9 @@ var direction = 1
 var attack_speed_boost = 1500  # Increased speed during attack
 var attack_boost_duration = 0.5  # Duration of speed boost in seconds
 var boost_timer = 0.0  # Timer to track boost duration
-
+@onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var audio_stream_player_enemy: AudioStreamPlayer2D = $AudioStreamPlayer2D
 @onready var ray_cast_right = $RayCastRight
-@onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var detection_area: Area2D = $DetectionArea
 @onready var attack_area: Area2D = $AttackArea
 

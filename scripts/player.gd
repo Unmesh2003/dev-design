@@ -1,13 +1,13 @@
 extends CharacterBody2D
 
 # Constants
-const SPEED = 1500.0
+const SPEED = 1000.0
 const JUMP_VELOCITY = -2252.0
 const GRAVITY = 4000.0
 const FAST_GRAVITY = 6000.0
 const JUMP_ANIMATION_SPEED = 1.5
 const MAX_JUMPS = 2
-const HEALTH_MAX = 7
+const HEALTH_MAX = 10
 
 # Variables
 var dying = false
@@ -21,17 +21,14 @@ var jump_count = 0
 var is_attacking = false
 var is_fast_jumping = false
 var last_save_point: Vector2 = Vector2(-4150, 906)
-var push_speed = 1000
+var push_speed = 500
 var knock_backing=false
-var keys=0
 
 # Nodes
-@onready var label: Label = $"CanvasLayer/KeyContainer/Label"
 @onready var audio_stream_player_2d_2: AudioStreamPlayer2D = $AudioStreamPlayer2D2
 @onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var coincount = $"CanvasLayer/CoinContainer/Label"
-@onready var instruction: Label = $"CanvasLayer/Instruction"
 @onready var health_container = $"CanvasLayer/HealthContainer"
 @onready var collision_shape_2d_2: CollisionShape2D = $AttackArea/CollisionShape2D2
 @onready var attack_area = $AttackArea/CollisionShape2D
@@ -42,11 +39,10 @@ var keys=0
 func _ready() -> void:
 	# Initialize game state
 	position = GameData.save_point
-	position = Vector2(0,0)
-	health = GameData.health
-	coins = GameData.coins
-	#GameData.health = health
-	#GameData.coins = coins
+	health = 5
+	coins = 0
+	GameData.health = health
+	GameData.coins = coins
 	health_container.update_items(health)
 	coincount.text = str(coins)
 	
@@ -71,7 +67,6 @@ func heal(amount: int) -> void:
 		health += amount
 		health = min(health, HEALTH_MAX)
 		health_container.update_items(health)
-		GameData.health=health
 
 func count_coin(amount: int) -> void:
 	coins += amount
@@ -82,15 +77,7 @@ func count_coin(amount: int) -> void:
 func _on_save_point_activated(position: Vector2) -> void:
 	last_save_point = position
 	print("Save point activated at:", position)
-	
-func show_ins(msg: String) -> void:
-	instruction.text=msg
 
-func take_key() -> void:
-	keys+=1
-	GameData.key=keys
-	label.text=str(keys)
-	
 func die() -> void:
 	#dead = true
 	#collision_shape_2d.disabled=true
@@ -100,7 +87,6 @@ func die() -> void:
 	print("Player died. Restarting...")
 	animated_sprite.stop()
 	animated_sprite.play("die")
-	dying=true
 	audio_stream_player_2d.play()
 	
 	#health = 5
@@ -110,13 +96,7 @@ func die() -> void:
 	#animated_sprite.play("idle")
 
 func _physics_process(delta: float) -> void:
-	#if spawning or dying:
-		##direction=0
-		##velocity.x=0
-		#velocity.y += GRAVITY * delta
-		###move_and_slide()
-		#return
-	if not knock_backing and not dashing :
+	if not knock_backing and not dashing:
 		velocity.x = 0
 	#var box=is_colliding_with_box()
 	#if box:
@@ -132,16 +112,16 @@ func _physics_process(delta: float) -> void:
 		animated_sprite.speed_scale = 1.0
 
 	# Handle attack
-	if Input.is_action_just_pressed("attack") and not is_attacking and not dashing and not spawning and not knock_backing:
+	if Input.is_action_just_pressed("attack") and not is_attacking and not dashing and not spawning:
 		if not knock_backing and not dying:
 			perform_attack()
 			return  # Skip movement during attack
 
 	# Handle jump
-	if Input.is_action_just_pressed("jump") and jump_count < MAX_JUMPS and not knock_backing:
+	if Input.is_action_just_pressed("jump") and jump_count < MAX_JUMPS:
 		if not knock_backing and not dying and not dashing:
 			perform_jump()
-	if Input.is_action_just_pressed("dash") and not spawning and not knock_backing:
+	if Input.is_action_just_pressed("dash") and not spawning:
 		dashing=true
 		if animated_sprite.flip_h == false:
 			direction=1
@@ -156,10 +136,9 @@ func _physics_process(delta: float) -> void:
 			collision_shape_2d_2.disabled=false
 			return
 	# Get horizontal input
-	#if not spawning and not dying:
 	direction = Input.get_axis("move_left", "move_right")
 	
-	#print(velocity.x)
+	print(velocity.x)
 
 	# Flip sprite and adjust attack area
 	adjust_sprite_orientation()
@@ -168,7 +147,7 @@ func _physics_process(delta: float) -> void:
 	update_animations()
 
 	# Handle horizontal movement
-	if not is_attacking and direction != 0 and not dashing and not knock_backing:
+	if not is_attacking and direction != 0 and not dashing:
 		velocity.x = direction * SPEED
 	move_and_slide()
 
