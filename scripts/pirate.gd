@@ -99,8 +99,13 @@ func _on_detection_area_body_exited(body: CharacterBody2D) -> void:
 	is_attacking = false
 	player_position = null  # Clear player position
 
-func _on_attack_area_body_entered(player: CharacterBody2D) -> void:
-	pass
+func _on_attack_area_body_entered(tle: TileMap) -> void:
+	if direction == -1:
+		direction = 1
+		scale.x = 1
+	elif direction == 1:
+		direction = -1
+		scale.x = -1
 
 func _on_attack_area_body_exited(player) -> void:
 	pass

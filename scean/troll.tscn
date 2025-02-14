@@ -310,35 +310,35 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i7u04"]
-size = Vector2(482, 500)
+size = Vector2(482, 392)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s3rt6"]
 size = Vector2(3263, 661)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_22guo"]
-radius = 193.0
-height = 568.0
+radius = 224.0
+height = 704.0
 
 [node name="troll" type="Node2D"]
 script = ExtResource("1_uqdqt")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_fkv46")
-animation = &"run"
+animation = &"attack"
 autoplay = "walk"
-frame = 8
-frame_progress = 0.584747
+frame = 9
+frame_progress = 1.0
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
 position = Vector2(0, 250)
+enabled = false
 target_position = Vector2(286, 0)
 
 [node name="AttackArea" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea"]
-position = Vector2(367, 259)
+position = Vector2(367, 205)
 shape = SubResource("RectangleShape2D_i7u04")
-disabled = true
 
 [node name="DetectionArea" type="Area2D" parent="."]
 

@@ -286,6 +286,7 @@ flip_h = true
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
 position = Vector2(14, -68)
+enabled = false
 target_position = Vector2(125, 0)
 
 [node name="Area2D" type="Area2D" parent="."]

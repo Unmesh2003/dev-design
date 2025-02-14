@@ -44,7 +44,7 @@ func _process(delta: float) -> void:
 		global_position.x += direction * speed * delta
 	if is_attacking:
 		animated_sprite_2d.play("attack")
-		collision_shape_2d.disabled=false
+		#collision_shape_2d.disabled=false
 
 
 func _on_detection_area_body_entered(body: Node2D) -> void:
@@ -68,15 +68,20 @@ func _on_detection_area_body_exited(body: Node2D) -> void:
 		speed=500
 		is_running=false
 		animated_sprite_2d.play("walk")
+   
 
-
-func _on_attack_area_body_entered(body: Node2D) -> void:
-	pass	
+func _on_attack_area_body_entered(tle: TileMap) -> void:
+	if direction == -1:
+		direction = 1
+		scale.x = 1
+	elif direction == 1:
+		direction = -1
+		scale.x = -1
 
 
 func _on_animated_sprite_2d_animation_finished() -> void:
 	if animated_sprite_2d.animation == "attack":
-		collision_shape_2d.disabled = true
+		#collision_shape_2d.disabled = true
 		for body in attack_area.get_overlapping_bodies():
 			if body.is_in_group("player"):
 				var attack_direction = (body.global_position - global_position).normalized()
