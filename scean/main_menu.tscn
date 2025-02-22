@@ -1,0 +1,525 @@
+[gd_scene load_steps=15 format=3 uid="uid://dbbxn2eo1xxa2"]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_vwi1w"]
+[ext_resource type="Texture2D" uid="uid://cllkc1x1t7mvk" path="res://aseets/loading screen.png" id="2_h167k"]
+[ext_resource type="Texture2D" uid="uid://cm7ts06ejy16j" path="res://aseets/UI UX designs/STARTING MENUE.png" id="2_i18uc"]
+[ext_resource type="Texture2D" uid="uid://cpjh2khjhyqt6" path="res://aseets/UI UX designs/options.jpg" id="3_rs661"]
+[ext_resource type="Texture2D" uid="uid://bs5rj3p4qbpkb" path="res://aseets/UI UX designs/story new.jpg" id="4_1pm0u"]
+[ext_resource type="Texture2D" uid="uid://4r7tedvpds73" path="res://aseets/UI UX designs/Characters.jpg" id="5_ldol4"]
+[ext_resource type="Texture2D" uid="uid://dxovqthj0hkup" path="res://aseets/UI UX designs/vikram.png" id="6_w8s52"]
+[ext_resource type="Texture2D" uid="uid://b0g03ceprwhd7" path="res://aseets/UI UX designs/tantrick.png" id="7_ew6jc"]
+[ext_resource type="Texture2D" uid="uid://c7utu5uko6pwe" path="res://aseets/UI UX designs/Kaluaa.jpg" id="8_a4fer"]
+[ext_resource type="Texture2D" uid="uid://bxyr3y0ur5w16" path="res://aseets/UI UX designs/Betal.jpg" id="9_8d0f3"]
+[ext_resource type="Texture2D" uid="uid://muee50ynyohm" path="res://aseets/UI UX designs/comming soon.jpg" id="10_fv3g2"]
+[ext_resource type="Texture2D" uid="uid://cnny8sjpfjmtx" path="res://aseets/UI UX designs/Credits.jpg" id="11_uhrdb"]
+[ext_resource type="Texture2D" uid="uid://v5gmfwo1ht3b" path="res://aseets/UI UX designs/Future Plans.jpg" id="12_kypcf"]
+[ext_resource type="Texture2D" uid="uid://cfvtmuuhpfdco" path="res://aseets/UI UX designs/DEVELOPMENTS.jpg" id="13_a48rk"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+script = ExtResource("1_vwi1w")
+
+[node name="logo" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 1.0
+offset_right = 0.152954
+offset_bottom = -1.0
+texture = ExtResource("2_h167k")
+expand_mode = 3
+
+[node name="ToMenu" type="Button" parent="logo"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1.0
+offset_bottom = -1.0
+texture = ExtResource("2_i18uc")
+expand_mode = 5
+
+[node name="play" type="Button" parent="TextureRect"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.154
+anchor_top = 0.334
+anchor_right = 0.256
+anchor_bottom = 0.425
+offset_left = -0.869644
+offset_top = 0.00480652
+offset_right = -0.475647
+offset_bottom = -0.0541992
+
+[node name="option" type="Button" parent="TextureRect"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.11
+anchor_top = 0.466
+anchor_right = 0.313
+anchor_bottom = 0.557
+offset_left = 0.279991
+offset_top = 0.246246
+offset_right = 0.423981
+offset_bottom = 0.124786
+
+[node name="setiings" type="Button" parent="TextureRect"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.069
+anchor_top = 0.571
+anchor_right = 0.336
+anchor_bottom = 0.68
+offset_left = -0.488007
+offset_top = 0.0291748
+offset_right = -0.0720215
+offset_bottom = 0.213409
+
+[node name="credits" type="Button" parent="TextureRect"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.214
+anchor_top = 0.696
+anchor_right = 0.343
+anchor_bottom = 0.787
+offset_left = 0.471985
+offset_top = -0.18158
+offset_right = -0.136017
+offset_bottom = -0.30304
+
+[node name="about" type="Button" parent="TextureRect"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.047
+anchor_top = 0.805
+anchor_right = 0.304
+anchor_bottom = 0.894
+offset_left = -0.144001
+offset_top = 0.00262451
+offset_right = -0.208008
+offset_bottom = 0.180542
+
+[node name="AboutScreen" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.002
+offset_right = -1.0
+offset_bottom = -0.298035
+texture = ExtResource("3_rs661")
+expand_mode = 2
+
+[node name="story" type="Button" parent="AboutScreen"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.112
+anchor_top = 0.246
+anchor_right = 0.37
+anchor_bottom = 0.362
+offset_left = -0.0240021
+offset_top = 0.0999908
+offset_right = -0.23999
+offset_bottom = -0.300018
+
+[node name="character" type="Button" parent="AboutScreen"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.11
+anchor_top = 0.389
+anchor_right = 0.368
+anchor_bottom = 0.492
+offset_left = 0.279991
+offset_top = 0.149979
+offset_right = 0.0639648
+offset_bottom = 0.199982
+
+[node name="developments" type="Button" parent="AboutScreen"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.111
+anchor_top = 0.528
+anchor_right = 0.37
+anchor_bottom = 0.635
+offset_left = 0.127991
+offset_top = -0.200012
+offset_right = -0.23999
+offset_bottom = 0.249969
+
+[node name="future" type="Button" parent="AboutScreen"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.11
+anchor_top = 0.668
+anchor_right = 0.368
+anchor_bottom = 0.772
+offset_left = 0.279991
+offset_top = -0.200043
+offset_right = 0.0639648
+offset_bottom = 0.199982
+
+[node name="AboutScreenBack" type="Button" parent="AboutScreen"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.031
+anchor_top = 0.877
+anchor_right = 0.131
+anchor_bottom = 0.965
+offset_left = 0.287998
+offset_top = -0.0499878
+offset_right = 0.0879822
+offset_bottom = -0.249939
+theme_override_font_sizes/font_size = 30
+text = "back"
+
+[node name="story" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.998
+offset_right = -1.0
+offset_bottom = 0.297974
+texture = ExtResource("4_1pm0u")
+expand_mode = 2
+
+[node name="storyBack" type="Button" parent="story"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.024
+anchor_top = 0.875
+anchor_right = 0.128
+anchor_bottom = 0.969
+offset_left = 0.351999
+offset_top = -0.00012207
+offset_right = 0.543991
+offset_bottom = 0.0878906
+theme_override_font_sizes/font_size = 38
+text = "back"
+
+[node name="characters" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.998
+offset_right = -1.0
+offset_bottom = 0.297974
+texture = ExtResource("5_ldol4")
+expand_mode = 2
+
+[node name="vikram" type="Button" parent="characters"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.348
+anchor_top = 0.31
+anchor_right = 0.649
+anchor_bottom = 0.434
+offset_left = 0.103973
+offset_top = 0.119995
+offset_right = 0.351929
+offset_bottom = -0.231995
+
+[node name="tantrik" type="Button" parent="characters"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.349
+anchor_top = 0.457
+anchor_right = 0.653
+anchor_bottom = 0.585
+offset_left = -0.0480042
+offset_top = -0.136017
+offset_right = -0.256042
+offset_bottom = -0.0800171
+
+[node name="betal" type="Button" parent="characters"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.347
+anchor_top = 0.605
+anchor_right = 0.654
+anchor_bottom = 0.727
+offset_left = 0.255981
+offset_top = -0.0400085
+offset_right = -0.408081
+offset_bottom = -0.0960388
+
+[node name="hidimb" type="Button" parent="characters"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.349
+anchor_top = 0.748
+anchor_right = 0.654
+anchor_bottom = 0.875
+offset_left = -0.0480042
+offset_top = 0.29599
+offset_right = -0.408081
+offset_bottom = -6.10352e-05
+
+[node name="home" type="Button" parent="characters"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.023
+anchor_top = 0.877
+anchor_right = 0.129
+anchor_bottom = 0.968
+offset_left = -3.496
+offset_top = -0.296021
+offset_right = 0.391998
+offset_bottom = -0.264038
+theme_override_font_sizes/font_size = 30
+text = "back"
+
+[node name="vikram" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 0.998
+offset_right = 0.152954
+offset_bottom = 0.297974
+texture = ExtResource("6_w8s52")
+expand_mode = 2
+
+[node name="back" type="Button" parent="vikram"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.431
+anchor_top = 0.715
+anchor_right = 0.551
+anchor_bottom = 0.781
+offset_left = -0.512024
+offset_top = -0.320007
+offset_right = 0.247986
+offset_bottom = -0.0880127
+theme_override_font_sizes/font_size = 30
+
+[node name="tantrik" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 1.0
+offset_right = 0.152954
+offset_bottom = -1.0
+texture = ExtResource("7_ew6jc")
+expand_mode = 2
+
+[node name="tantrikback" type="Button" parent="tantrik"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.43
+anchor_top = 0.716
+anchor_right = 0.552
+anchor_bottom = 0.781
+offset_left = -0.360016
+offset_top = 0.0319824
+offset_right = 0.0959473
+offset_bottom = -0.0880127
+theme_override_font_sizes/font_size = 30
+
+[node name="hidimb" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 0.998
+offset_right = 0.152954
+offset_bottom = 0.297974
+texture = ExtResource("8_a4fer")
+expand_mode = 2
+
+[node name="hidimbback" type="Button" parent="hidimb"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.429
+anchor_top = 0.715
+anchor_right = 0.552
+anchor_bottom = 0.782
+offset_left = -0.208008
+offset_top = -0.320007
+offset_right = 0.0959473
+offset_bottom = 0.263947
+theme_override_font_sizes/font_size = 30
+
+[node name="betal" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 0.998
+offset_right = 0.152954
+offset_bottom = 0.297974
+texture = ExtResource("9_8d0f3")
+expand_mode = 2
+
+[node name="betalback" type="Button" parent="betal"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.431
+anchor_top = 0.716
+anchor_right = 0.551
+anchor_bottom = 0.781
+offset_left = -0.512024
+offset_top = 0.0319824
+offset_right = 0.247986
+offset_bottom = -0.0880127
+theme_override_font_sizes/font_size = 30
+
+[node name="settings" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 0.998
+offset_right = 0.152954
+offset_bottom = 0.297974
+texture = ExtResource("10_fv3g2")
+expand_mode = 2
+
+[node name="SettingsBack" type="Button" parent="settings"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.466
+anchor_top = 0.894
+anchor_right = 0.568
+anchor_bottom = 0.955
+offset_left = 0.167969
+offset_top = -0.312012
+offset_right = -0.335999
+offset_bottom = 0.159973
+
+[node name="credits" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 0.998
+offset_right = 0.152954
+offset_bottom = 0.297974
+texture = ExtResource("11_uhrdb")
+expand_mode = 2
+
+[node name="creditsBack" type="Button" parent="credits"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.466
+anchor_top = 0.89
+anchor_right = 0.567
+anchor_bottom = 0.954
+offset_left = 0.167969
+offset_top = 0.279968
+offset_right = -0.184021
+offset_bottom = -0.192017
+theme_override_font_sizes/font_size = 46
+
+[node name="future" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 0.998
+offset_right = 0.152954
+offset_bottom = 0.297974
+texture = ExtResource("12_kypcf")
+expand_mode = 3
+
+[node name="Button" type="Button" parent="future"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.466
+anchor_top = 0.892
+anchor_right = 0.568
+anchor_bottom = 0.954
+offset_left = 0.167969
+offset_top = -0.0159912
+offset_right = -0.335999
+offset_bottom = -0.192017
+theme_override_font_sizes/font_size = 30
+
+[node name="development" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.999
+anchor_bottom = 1.0
+offset_right = 0.152954
+offset_bottom = -1.0
+texture = ExtResource("13_a48rk")
+expand_mode = 2
+
+[node name="developmentButton" type="Button" parent="development"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.467
+anchor_top = 0.892
+anchor_right = 0.567
+anchor_bottom = 0.952
+offset_left = 0.0159912
+offset_top = -0.0159912
+offset_right = -0.184021
+offset_bottom = 0.104004
+theme_override_font_sizes/font_size = 30
+
+[connection signal="pressed" from="logo/ToMenu" to="." method="_on_to_menu_pressed"]
+[connection signal="pressed" from="TextureRect/play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="TextureRect/option" to="." method="_on_option_pressed"]
+[connection signal="pressed" from="TextureRect/setiings" to="." method="_on_setiings_pressed"]
+[connection signal="pressed" from="TextureRect/credits" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="TextureRect/about" to="." method="_on_about_pressed"]
+[connection signal="pressed" from="AboutScreen/story" to="." method="_on_story_pressed"]
+[connection signal="pressed" from="AboutScreen/character" to="." method="_on_character_pressed"]
+[connection signal="pressed" from="AboutScreen/developments" to="." method="_on_developments_pressed"]
+[connection signal="pressed" from="AboutScreen/future" to="." method="_on_future_pressed"]
+[connection signal="pressed" from="AboutScreen/AboutScreenBack" to="." method="_on_about_screen_back_pressed"]
+[connection signal="pressed" from="story/storyBack" to="." method="_on_story_back_pressed"]
+[connection signal="pressed" from="characters/vikram" to="." method="_on_vikram_pressed"]
+[connection signal="pressed" from="characters/tantrik" to="." method="_on_tantrik_pressed"]
+[connection signal="pressed" from="characters/betal" to="." method="_on_betal_pressed"]
+[connection signal="pressed" from="characters/hidimb" to="." method="_on_hidimb_pressed"]
+[connection signal="pressed" from="characters/home" to="." method="_on_home_pressed"]
+[connection signal="pressed" from="vikram/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="tantrik/tantrikback" to="." method="_on_tantrikback_pressed"]
+[connection signal="pressed" from="hidimb/hidimbback" to="." method="_on_hidimbback_pressed"]
+[connection signal="pressed" from="betal/betalback" to="." method="_on_betalback_pressed"]
+[connection signal="pressed" from="settings/SettingsBack" to="." method="_on_settings_back_pressed"]
+[connection signal="pressed" from="credits/creditsBack" to="." method="_on_credits_back_pressed"]
+[connection signal="pressed" from="future/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="development/developmentButton" to="." method="_on_development_button_pressed"]

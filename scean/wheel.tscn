@@ -1,0 +1,81 @@
+[gd_scene load_steps=6 format=3 uid="uid://txntffhjhdap"]
+
+[ext_resource type="Texture2D" uid="uid://d0j2kb86b0y3e" path="res://aseets/backround game/obstacles/obstacle 3.png" id="2_4mtaa"]
+
+[sub_resource type="Animation" id="Animation_1o5ah"]
+length = 0.001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_1ry22"]
+resource_name = "rotate"
+length = 3.5
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, -6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3ug22"]
+_data = {
+"RESET": SubResource("Animation_1o5ah"),
+"rotate": SubResource("Animation_1ry22")
+}
+
+[sub_resource type="GDScript" id="GDScript_7od2p"]
+script/source = "extends Area2D
+
+
+
+
+
+
+func _on_body_entered(body: Node2D) -> void:
+	if body.is_in_group(\"player\"):
+		body.take_damage(1)
+"
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_4mtaa")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-224, 79, -247, 67, -262, 70, -294, 58, -332, 12, -525, 126, -519, 229, -486, 302, -426, 341, -412, 334, -372, 365, -181, 244, -187, 199, -181, 145)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(58, 199, 31, 234, 44, 268, 13, 303, 51, 448, 108, 499, 142, 472, 185, 480, 249, 447, 274, 418, 345, 388, 283, 247, 273, 184, 204, 215, 187, 195, 160, 197, 142, 172)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(208, -137, 227, -160, 231, -197, 250, -208, 242, -278, 396, -329, 420, -291, 466, -271, 479, -262, 511, -190, 491, -148, 503, -113, 453, -82, 386, -63, 329, -3, 289, -40, 269, -27, 236, -67)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-58, -205, -45, -215, -45, -247, -37, -265, -55, -308, -10, -344, -49, -425, -76, -452, -86, -499, -142, -473, -191, -499, -238, -489, -274, -471, -313, -418, -355, -376, -306, -282, -263, -252, -247, -185, -195, -198, -173, -162, -133, -164)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3ug22")
+}
+autoplay = "RESET"
+script = SubResource("GDScript_7od2p")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

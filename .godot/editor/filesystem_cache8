@@ -1,0 +1,238 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1740238688
+default_bus_layout.tres::AudioBusLayout::6652649559742890565::1740231932::0::1::::<><>::
+icon.svg::CompressedTexture2D::6466775179708746297::1740231734::1740231987::1::::<><>::
+last.tscn::PackedScene::3499865216111293182::1740238688::0::1::::<><>::
+::res://aseets/::1740238545
+1.jpg::CompressedTexture2D::2727799122256795299::1740231804::1740231939::1::::<><>::
+2.png::CompressedTexture2D::4992803381671932034::1740231805::1740231944::1::::<><>::
+3.png::CompressedTexture2D::9151534283833610385::1740231805::1740231942::1::::<><>::
+4.png::CompressedTexture2D::1054713573065135384::1740231806::1740231946::1::::<><>::
+5.png::CompressedTexture2D::5012569661863806589::1740231806::1740231947::1::::<><>::
+33 jump animation vikram.png::CompressedTexture2D::8929225106142123312::1740231805::1740231947::1::::<><>::
+55.png::CompressedTexture2D::493687704473570170::1740231806::1740231965::1::::<><>::
+attack_vikram.png::CompressedTexture2D::6785752747750974633::1740231807::1740231948::1::::<><>::
+blue backround.png::CompressedTexture2D::6059211577886139615::1740231807::1740231947::1::::<><>::
+Bottle.png::CompressedTexture2D::5072618957932254237::1740231806::1740231987::1::::<><>::
+castle backround pillers.png::CompressedTexture2D::135571518568811947::1740231807::1740231989::1::::<><>::
+castle backround.png::CompressedTexture2D::4219243587300219983::1740231807::1740231988::1::::<><>::
+coin.png::CompressedTexture2D::8056588730682808797::1740231808::1740231988::1::::<><>::
+default gate.png::CompressedTexture2D::3631275469201034888::1740231808::1740231988::1::::<><>::
+falling piller.png::CompressedTexture2D::1514450799125804510::1740231808::1740231989::1::::<><>::
+game  gui.jpg::CompressedTexture2D::341623306999265038::1740231808::1740231991::1::::<><>::
+ganapati.png::CompressedTexture2D::7916851673828689270::1740231808::1740231989::1::::<><>::
+ganesh idol.png::CompressedTexture2D::71061672946533964::1740231809::1740231990::1::::<><>::
+gate 1.png::CompressedTexture2D::438479331716437923::1740231809::1740231991::1::::<><>::
+gate 2.png::CompressedTexture2D::4525753394816117302::1740231809::1740231992::1::::<><>::
+gate rotating.png::CompressedTexture2D::620169789861153499::1740231809::1740231992::1::::<><>::
+gate start.png::CompressedTexture2D::3513195438304132567::1740231809::1740231993::1::::<><>::
+kallu walk cycle.png::CompressedTexture2D::4445787985207754085::1740231809::1740231993::1::::<><>::
+kaluaa die.png::CompressedTexture2D::8958120958848970948::1740231810::1740231994::1::::<><>::
+key.png::CompressedTexture2D::2677776383876485788::1740231810::1740231996::1::::<><>::
+last scean.jpg::CompressedTexture2D::966287764654532318::1740238533::1740238545::0::::<><>::
+loading screen.png::CompressedTexture2D::5568238946560279348::1740232405::1740232419::1::::<><>::
+lower ground backround.png::CompressedTexture2D::8646315097559080998::1740231810::1740231994::1::::<><>::
+main menu.png::CompressedTexture2D::1798147460216188411::1740231811::1740232010::1::::<><>::
+mashall.png::CompressedTexture2D::1811187295622254619::1740231811::1740231994::1::::<><>::
+new attack.png::CompressedTexture2D::1230760927888903003::1740231811::1740231996::1::::<><>::
+new gate.png::CompressedTexture2D::6829726693856747517::1740231812::1740232003::1::::<><>::
+ong.png::CompressedTexture2D::532042088545376917::1740231812::1740231997::1::::<><>::
+pause_icon.png::CompressedTexture2D::107342910566423693::1740231812::1740231998::1::::<><>::
+pngegg.png::CompressedTexture2D::7369549798474675705::1740231812::1740231998::1::::<><>::
+pngwing.com.png::CompressedTexture2D::9077058765588419521::1740231812::1740231964::1::::<><>::
+Pot.png::CompressedTexture2D::9201597707457460171::1740231806::1740231964::1::::<><>::
+rotating axe.png::CompressedTexture2D::2355727334482563808::1740231813::1740231967::1::::<><>::
+rotating coin.png::CompressedTexture2D::5367454684195237772::1740231813::1740231965::1::::<><>::
+run.png::CompressedTexture2D::2117315716079716450::1740231813::1740231971::1::::<><>::
+running.png::CompressedTexture2D::2736197014904635488::1740231813::1740231967::1::::<><>::
+save point sprite set.png::CompressedTexture2D::1175889133342601222::1740231813::1740231969::1::::<><>::
+sky backround.png::CompressedTexture2D::1540273236603220081::1740231814::1740231969::1::::<><>::
+sprint attack.png::CompressedTexture2D::1513048059326191939::1740231814::1740231971::1::::<><>::
+sprite sheet walk cycle.png::CompressedTexture2D::8855495502141340549::1740231814::1740231971::1::::<><>::
+start.png::CompressedTexture2D::7965246098160845004::1740231814::1740231972::1::::<><>::
+stone tile set.png::CompressedTexture2D::2588269119874249759::1740231814::1740231971::1::::<><>::
+Stop.png::CompressedTexture2D::647681982518480601::1740231807::1740231972::1::::<><>::
+Street_Lantern.png::CompressedTexture2D::1724559175138108336::1740231807::1740231972::1::::<><>::
+tantrik.png::CompressedTexture2D::7996107275523523316::1740231814::1740231979::1::::<><>::
+tree with betal.png::CompressedTexture2D::2466612265439202041::1740231815::1740231989::1::::<><>::
+trees and pillers.png::CompressedTexture2D::7053704816025062460::1740231815::1740231974::1::::<><>::
+troll attack.png::CompressedTexture2D::5707589909727694165::1740231815::1740231981::1::::<><>::
+troll die.png::CompressedTexture2D::7292503034145868762::1740231816::1740231985::1::::<><>::
+troll walk.png::CompressedTexture2D::2466992363444159433::1740231816::1740231987::1::::<><>::
+unsaved save point.png::CompressedTexture2D::6418830738813272228::1740231816::1740231985::1::::<><>::
+walk_vikram.png::CompressedTexture2D::3495967262004837346::1740231816::1740231987::1::::<><>::
+::res://aseets/backround game/::1740232045
+breaking potery.png::CompressedTexture2D::3251218887628716169::1740231823::1740232001::1::::<><>::
+fore ground tree.png::CompressedTexture2D::5177395361549401966::1740231823::1740232005::1::::<><>::
+fore ground.png::CompressedTexture2D::3343845827891182405::1740231823::1740232005::1::::<><>::
+grass 1.png::CompressedTexture2D::9083506013466387651::1740231823::1740232007::1::::<><>::
+grass 2.png::CompressedTexture2D::2278328895148944457::1740231823::1740232008::1::::<><>::
+grass.png::CompressedTexture2D::1064840199054582001::1740231823::1740232010::1::::<><>::
+idle animation vikram 2.png::CompressedTexture2D::2135311865270869044::1740231824::1740232009::1::::<><>::
+idle animation vikram 3.png::CompressedTexture2D::5889406309475587044::1740231824::1740232011::1::::<><>::
+idle animation vikram.png::CompressedTexture2D::8604247461757212174::1740231824::1740232012::1::::<><>::
+main trees.png::CompressedTexture2D::9148664766304721089::1740231824::1740232015::1::::<><>::
+moon.png::CompressedTexture2D::954669711064133478::1740231824::1740232015::1::::<><>::
+new backround.jpg::CompressedTexture2D::1748917576506099980::1740231825::1740232014::1::::<><>::
+rocks.png::CompressedTexture2D::8082460725435099238::1740231825::1740232015::1::::<><>::
+rotating axe.png::CompressedTexture2D::2132335252622183908::1740231825::1740232019::1::::<><>::
+tile set.png::CompressedTexture2D::3175819042150632272::1740231825::1740232016::1::::<><>::
+tree 1.png::CompressedTexture2D::1571448669234272262::1740231825::1740232020::1::::<><>::
+tree 2.png::CompressedTexture2D::4238512464278463979::1740231825::1740232019::1::::<><>::
+tree 3.png::CompressedTexture2D::3678349109078504494::1740231826::1740232022::1::::<><>::
+tree 4.png::CompressedTexture2D::4456560593675473282::1740231826::1740232045::1::::<><>::
+vikram die animation.png::CompressedTexture2D::7747104342149130561::1740231826::1740232043::1::::<><>::
+vikram jump animation.png::CompressedTexture2D::3455711839638271146::1740231826::1740232044::1::::<><>::
+vikram swapn animation.png::CompressedTexture2D::589437264452100589::1740231826::1740232045::1::::<><>::
+::res://aseets/backround game/obstacles/::1740232029
+arrow.png::CompressedTexture2D::4480128017976299290::1740231826::1740232020::1::::<><>::
+cactus.png::CompressedTexture2D::1862674271934388539::1740231827::1740232021::1::::<><>::
+obstacle 2.png::CompressedTexture2D::2104934149777770932::1740231827::1740232021::1::::<><>::
+obstacle 3.png::CompressedTexture2D::8934219863473135892::1740231827::1740232021::1::::<><>::
+obstacle.png::CompressedTexture2D::1681066104836280053::1740231827::1740232022::1::::<><>::
+poisonous tree 2.png::CompressedTexture2D::8927436296518373248::1740231827::1740232022::1::::<><>::
+pottery 1.png::CompressedTexture2D::3733041541722263528::1740231827::1740232023::1::::<><>::
+pottery 2.png::CompressedTexture2D::1498609093078360624::1740231828::1740232023::1::::<><>::
+pottrey 3.png::CompressedTexture2D::8413369058203138817::1740231828::1740232023::1::::<><>::
+skull.png::CompressedTexture2D::1757017354090054464::1740231828::1740232025::1::::<><>::
+stone 1.png::CompressedTexture2D::1808254154620989170::1740231828::1740232026::1::::<><>::
+stone 2.png::CompressedTexture2D::8228974317755275606::1740231828::1740232025::1::::<><>::
+stone 3.png::CompressedTexture2D::8840435634822044009::1740231829::1740232026::1::::<><>::
+tree branch.png::CompressedTexture2D::105139968177238199::1740231829::1740232028::1::::<><>::
+tree.png::CompressedTexture2D::4861520173598700532::1740231829::1740232029::1::::<><>::
+trees poison.png::CompressedTexture2D::7675401750113143481::1740231829::1740232027::1::::<><>::
+wall 1.png::CompressedTexture2D::303950072220168271::1740231829::1740232028::1::::<><>::
+::res://aseets/backround game/vikram sprite sheet/::1740232031
+33 attack vikram last.png::CompressedTexture2D::3144537553918250904::1740231830::1740232030::1::::<><>::
+33 jump animation vikram.png::CompressedTexture2D::4267965047712986999::1740231830::1740232031::1::::<><>::
+33 walk vikram last.png::CompressedTexture2D::589316147129942922::1740231830::1740232000::1::::<><>::
+::res://aseets/health bar/::1740232054
+1.png::CompressedTexture2D::5808533933891297278::1740231830::1740232047::1::::<><>::
+2.png::CompressedTexture2D::8424480190270565719::1740231830::1740232048::1::::<><>::
+3.png::CompressedTexture2D::3590490441913628638::1740231830::1740232049::1::::<><>::
+4.png::CompressedTexture2D::8722592777604329882::1740231831::1740232050::1::::<><>::
+5.png::CompressedTexture2D::208838386536221999::1740231831::1740232051::1::::<><>::
+6.png::CompressedTexture2D::2403004893689351620::1740231831::1740232052::1::::<><>::
+empty.png::CompressedTexture2D::9035226999787414703::1740231831::1740232053::1::::<><>::
+full.png::CompressedTexture2D::613563086702018104::1740231831::1740232054::1::::<><>::
+::res://aseets/more assets/::1740238703
+1.png::CompressedTexture2D::3153777792523034935::1740231832::1740232052::1::::<><>::
+2.png::CompressedTexture2D::3165476662296203352::1740231832::1740232052::1::::<><>::
+3.png::CompressedTexture2D::4496279449129906198::1740231832::1740232052::1::::<><>::
+4.png::CompressedTexture2D::1473095167347978733::1740231832::1740232053::1::::<><>::
+5.png::CompressedTexture2D::5962332650674362176::1740231832::1740232053::1::::<><>::
+6.png::CompressedTexture2D::2260731054197596865::1740231832::1740232053::1::::<><>::
+last scean.jpg::CompressedTexture2D::7672190731281217731::1740238703::1740238706::1::::<><>::
+::res://aseets/Musics/::1740232054
+ahhhhh-cartoon-death-scream-dan-barracuda-1-00-03.mp3::AudioStreamMP3::3497975888140431745::1740231817::1740231937::1::::<><>::
+breaking-a-vase-remix-87091.mp3::AudioStreamMP3::8538083520375429470::1740231817::1740231937::1::::<><>::
+falling-of-heavy.mp3::AudioStreamMP3::1649808969971137267::1740231817::1740231936::1::::<><>::
+footsteps_grass_1-6810.mp3::AudioStreamMP3::6044988196586137943::1740231818::1740231936::1::::<><>::
+game-key.mp3::AudioStreamMP3::3975436348664342671::1740231818::1740231936::1::::<><>::
+key.mp3::AudioStreamMP3::1851214247248354216::1740231818::1740231936::1::::<><>::
+male_hurt7-48124.mp3::AudioStreamMP3::2130497994421235678::1740231818::1740231936::1::::<><>::
+mixkit-bonus-earned-in-video-game-2058.wav::AudioStreamWAV::7720053741469715948::1740231818::1740232054::1::::<><>::
+mixkit-winning-a-coin-video-game-2069.wav::AudioStreamWAV::3798978170897898526::1740231819::1740232054::1::::<><>::
+monster-roars-177261.mp3::AudioStreamMP3::4184673138931756740::1740231819::1740231936::1::::<><>::
+opening_Portal.mp3::AudioStreamMP3::7073993960199411937::1740231819::1740231936::1::::<><>::
+player_ohh.mp3::AudioStreamMP3::1469233142841129503::1740231819::1740231936::1::::<><>::
+ringtone-193209.mp3::AudioStreamMP3::5185475338418390003::1740231819::1740231936::1::::<><>::
+Slow Sitar & Tabla Indian Music (No Copyright).mp3::AudioStreamMP3::2242960632419171373::1740231817::1740231936::1::::<><>::
+sword-slash-and-swing-185432.mp3::AudioStreamMP3::7183030070421894813::1740231819::1740231936::1::::<><>::
+sword-sound-260274.mp3::AudioStreamMP3::2816766069252120580::1740231819::1740231936::1::::<><>::
+sword-sound-effect-2-234986 (1).mp3::AudioStreamMP3::5283931556323085010::1740231820::1740231936::1::::<><>::
+walking-on-leaves-260279.mp3::AudioStreamMP3::6958211563257252964::1740231820::1740231936::1::::<><>::
+[No Copyright Music] AGHORI _ Horror Music _ Royalty Free Music _ DARK MUSIC.mp3::AudioStreamMP3::1982963179296813175::1740231817::1740231936::1::::<><>::
+::res://aseets/new tress grass assets/::1740232031
+grass small 1.png::CompressedTexture2D::5993279250024578476::1740231833::1740232029::1::::<><>::
+grass small 2.png::CompressedTexture2D::1896316405044944841::1740231833::1740232030::1::::<><>::
+small grass 3.png::CompressedTexture2D::7797439286277341590::1740231833::1740232030::1::::<><>::
+tree 2.png::CompressedTexture2D::8544827830209785159::1740231833::1740232030::1::::<><>::
+tree trunk 1.png::CompressedTexture2D::4781787140024190597::1740231833::1740232031::1::::<><>::
+tree trunk 2.png::CompressedTexture2D::866175868523080211::1740231833::1740232031::1::::<><>::
+::res://aseets/sprint attack/::1740232041
+1S.png::CompressedTexture2D::6789639746955946801::1740231834::1740232034::1::::<><>::
+empty S.png::CompressedTexture2D::8844676899854397220::1740231835::1740232034::1::::<><>::
+S2.png::CompressedTexture2D::220832530472392812::1740231834::1740232035::1::::<><>::
+S3.png::CompressedTexture2D::1943411501332089282::1740231834::1740232037::1::::<><>::
+S4.png::CompressedTexture2D::6994878906441085247::1740231834::1740232037::1::::<><>::
+S5.png::CompressedTexture2D::334769938138302617::1740231834::1740232038::1::::<><>::
+S6.png::CompressedTexture2D::2740127026442533743::1740231835::1740232041::1::::<><>::
+S full.png::CompressedTexture2D::8125545773422225239::1740231834::1740232041::1::::<><>::
+sprint attack.png::CompressedTexture2D::5064746750608808528::1740231835::1740232039::1::::<><>::
+::res://aseets/UI UX designs/::1740232042
+Betal.jpg::CompressedTexture2D::4051392644684793003::1740231820::1740232041::1::::<><>::
+Characters.jpg::CompressedTexture2D::2072547976876817804::1740231820::1740232042::1::::<><>::
+comming soon.jpg::CompressedTexture2D::883805305313666562::1740231821::1740232042::1::::<><>::
+Credits.jpg::CompressedTexture2D::5713650344520780549::1740231820::1740231949::1::::<><>::
+DEVELOPMENTS.jpg::CompressedTexture2D::5168313652502425174::1740231821::1740231949::1::::<><>::
+Future Plans.jpg::CompressedTexture2D::1536283077777517469::1740231821::1740231950::1::::<><>::
+Kaluaa.jpg::CompressedTexture2D::7061362864695986756::1740231821::1740231951::1::::<><>::
+last scean.jpg::CompressedTexture2D::6372618701426694396::1740231822::1740231951::1::::<><>::
+options.jpg::CompressedTexture2D::5844727193594391285::1740231822::1740231953::1::::<><>::
+STARTING MENUE.png::CompressedTexture2D::5682354707492788127::1740231821::1740231954::1::::<><>::
+story new.jpg::CompressedTexture2D::3712800957986587129::1740231822::1740231955::1::::<><>::
+tantrick.png::CompressedTexture2D::4155096080147807938::1740231822::1740231956::1::::<><>::
+vikram.png::CompressedTexture2D::8803811382061357191::1740231822::1740231957::1::::<><>::
+::res://aseets/video/::1740231963
+about game.png::CompressedTexture2D::6821918334288849117::1740231836::1740231957::1::::<><>::
+Betal.png::CompressedTexture2D::6714258735726282211::1740231835::1740231959::1::::<><>::
+characters.png::CompressedTexture2D::5691668952846842772::1740231836::1740231959::1::::<><>::
+development.png::CompressedTexture2D::6704442575637073857::1740231836::1740231960::1::::<><>::
+future plans.png::CompressedTexture2D::2411123342837519937::1740231836::1740231961::1::::<><>::
+Hidimb.png::CompressedTexture2D::5785334214196196095::1740231835::1740231962::1::::<><>::
+loading animation.png::CompressedTexture2D::6474679620966018951::1740231836::1740231962::1::::<><>::
+STARTING MENUE.ogv::VideoStreamTheora::-1::1740231836::0::1::::<><>::
+story.jpg::CompressedTexture2D::8465534335585713303::1740231837::1740231963::1::::<><>::
+tantrick.png::CompressedTexture2D::6579816931028043795::1740231837::1740231938::1::::<><>::
+vikram.png::CompressedTexture2D::4566561841695726279::1740231837::1740231938::1::::<><>::
+::res://scean/::1740238428
+axe.tscn::PackedScene::5007639302916890319::1740231837::0::1::::<><>::res://scripts/axe.gd<>uid://8teqqxlrfgou::::res://aseets/rotating axe.png
+betal.tscn::PackedScene::1832851800038094585::1740238427::0::1::::<><>::uid://be8o1aonm57aq::::res://aseets/running.png<>res://scripts/betal.gd<>uid://dlqoo7cdi07e3::::res://aseets/start.png<>uid://jh0h0es5jte4::::res://aseets/Stop.png<>uid://d2k83jo6d228l::::res://aseets/pngwing.com.png
+canvas_layer.tscn::PackedScene::4562957476131370311::1740238425::0::1::::<><>::uid://dm1w3sik3vy0d::::res://aseets/coin.png<>res://scripts/health_container.gd<>uid://dwjj3f6wyfe0q::::res://aseets/health bar/4.png<>uid://befet6g35sxnw::::res://aseets/key.png<>uid://e4qqr07qhgli::::res://aseets/game  gui.jpg<>uid://br86l5n87y1j::::res://aseets/pause_icon.png<>uid://cefnvyx2dn0ye::::res://aseets/sprint attack/sprint attack.png<>uid://cllkc1x1t7mvk::::res://aseets/loading screen.png
+coin.tscn::PackedScene::8480465605411154274::1740231837::0::1::::<><>::res://scripts/coin.gd<>uid://ciqbgu12sw2hc::::res://aseets/rotating coin.png<>uid://bueiu6pewp0xu::::res://aseets/Musics/mixkit-winning-a-coin-video-game-2069.wav
+falling_piller.tscn::PackedScene::5980172999707052696::1740238428::0::1::::<><>::res://scripts/falling_piller.gd<>uid://vtu1vuwm2mkc::::res://aseets/falling piller.png<>uid://xrgd3jm2sev0::::res://aseets/Musics/falling-of-heavy.mp3
+game.tscn::PackedScene::3405685960939467831::1740238424::0::1::::<><>::uid://ds3abad3y001c::::res://scean/coin.tscn<>uid://2qa35uiwrfdt::::res://scean/heal.tscn<>uid://dod0kx5mnh2co::::res://scean/kallu.tscn<>uid://0ac4yywgy1ue::::res://scean/tile_map_new.tscn<>uid://rnump7ont8yo::::res://scean/player.tscn<>uid://cijti4yk4uil8::::res://scean/save_point.tscn<>uid://gr73gsbuv865::::res://scean/troll.tscn<>uid://c10yc7p30dgju::::res://scean/portal.tscn<>uid://bfvfem6beeg8a::::res://scean/key.tscn<>res://scripts/killzone.gd<>uid://cdl0c8mymg28r::::res://scean/axe.tscn<>uid://3itd4ux2uw04::::res://aseets/Musics/[No Copyright Music] AGHORI _ Horror Music _ Royalty Free Music _ DARK MUSIC.mp3<>uid://1d32im2chs1f::::res://scean/betal.tscn<>uid://crg3ttna6tdrc::::res://scean/falling_piller.tscn
+game_temp.tscn::PackedScene::3865995172304290648::1740231838::0::1::::<><>::uid://0ac4yywgy1ue::::res://scean/tile_map_new.tscn<>uid://rnump7ont8yo::::res://scean/player.tscn<>uid://dod0kx5mnh2co::::res://scean/kallu.tscn<>uid://gr73gsbuv865::::res://scean/troll.tscn
+gate.tscn::PackedScene::5995542071993030379::1740231838::0::1::::<><>::uid://ginxqivc34pr::::res://aseets/gate 1.png<>uid://b5qkq50vjecew::::res://aseets/gate 2.png
+heal.tscn::PackedScene::1928180431511317365::1740231838::0::1::::<><>::res://scripts/heal.gd<>uid://cejhj73ypqt4h::::res://aseets/Bottle.png<>uid://dh8wfly505qoq::::res://aseets/Musics/mixkit-bonus-earned-in-video-game-2058.wav
+kallu.tscn::PackedScene::8149636032976236102::1740238420::0::1::::<><>::res://scripts/pirate.gd<>uid://dyfwym8sf3mmn::::res://aseets/sprite sheet walk cycle.png<>uid://d0vm7ctf5favs::::res://aseets/kaluaa die.png<>uid://b4ltqjib3owb2::::res://aseets/kallu walk cycle.png<>uid://chjtt0lospr43::::res://aseets/Musics/sword-sound-effect-2-234986 (1).mp3
+key.tscn::PackedScene::2781028241078054842::1740238425::0::1::::<><>::res://scripts/key.gd<>uid://befet6g35sxnw::::res://aseets/key.png<>uid://bwvy4dmdehfxv::::res://aseets/Musics/game-key.mp3
+lantern.tscn::PackedScene::5614616889984288873::1740231838::0::1::::<><>::uid://ytnicyyvma5e::::res://aseets/Street_Lantern.png
+level.tscn::PackedScene::1890451440421604316::1740238425::0::1::::<><>::uid://bc41oc423obf8::::res://aseets/stone tile set.png
+main_menu.tscn::PackedScene::7232936403607230479::1740238425::0::1::::<><>::res://scripts/main_menu.gd<>uid://cllkc1x1t7mvk::::res://aseets/loading screen.png<>uid://cm7ts06ejy16j::::res://aseets/UI UX designs/STARTING MENUE.png<>uid://cpjh2khjhyqt6::::res://aseets/UI UX designs/options.jpg<>uid://bs5rj3p4qbpkb::::res://aseets/UI UX designs/story new.jpg<>uid://4r7tedvpds73::::res://aseets/UI UX designs/Characters.jpg<>uid://dxovqthj0hkup::::res://aseets/UI UX designs/vikram.png<>uid://b0g03ceprwhd7::::res://aseets/UI UX designs/tantrick.png<>uid://c7utu5uko6pwe::::res://aseets/UI UX designs/Kaluaa.jpg<>uid://bxyr3y0ur5w16::::res://aseets/UI UX designs/Betal.jpg<>uid://muee50ynyohm::::res://aseets/UI UX designs/comming soon.jpg<>uid://cnny8sjpfjmtx::::res://aseets/UI UX designs/Credits.jpg<>uid://v5gmfwo1ht3b::::res://aseets/UI UX designs/Future Plans.jpg<>uid://cfvtmuuhpfdco::::res://aseets/UI UX designs/DEVELOPMENTS.jpg
+moving_ax.tscn::PackedScene::2601851105856422246::1740231838::0::1::::<><>::uid://8teqqxlrfgou::::res://aseets/rotating axe.png<>res://scripts/moving_ax.gd
+parallax_background.tscn::PackedScene::6093277924468941549::1740231839::0::1::::<><>::uid://y6goganls4jg::::res://aseets/backround game/new backround.jpg<>uid://b4q15ws7ipesw::::res://aseets/backround game/tree 4.png<>uid://bsn24wrk5hh8y::::res://aseets/backround game/tree 3.png<>uid://b1nfxfjj528gd::::res://aseets/backround game/tree 2.png<>uid://nupjg5dxpjsw::::res://aseets/backround game/moon.png<>uid://wnhsaw00drsw::::res://aseets/backround game/tree 1.png
+pillers with shadow.tscn::PackedScene::4371683283361775366::1740231839::0::1::::<><>::uid://b6w3wvlwx8dj::::res://aseets/castle backround pillers.png
+player.tscn::PackedScene::1221283859969763178::1740238420::0::1::::<><>::res://scripts/player.gd<>uid://rsgpnjt0qcbb::::res://aseets/new attack.png<>uid://vs6xevrjdtot::::res://aseets/sprint attack.png<>uid://8ltkcp7c1nj3::::res://aseets/walk ok.png<>uid://dim0xahase47n::::res://aseets/backround game/vikram die animation.png<>uid://bp2qcm71kx2vu::::res://aseets/walk_vikram.png<>uid://cp54wqwgg1qjc::::res://aseets/backround game/idle animation vikram 3.png<>uid://bph8cl5ohsse1::::res://aseets/backround game/vikram jump animation.png<>uid://d2k83jo6d228l::::res://aseets/pngwing.com.png<>uid://b6alii4530cyh::::res://scean/canvas_layer.tscn<>uid://inr7fe7j4h38::::res://aseets/backround game/vikram swapn animation.png<>uid://bp3pffrar0up2::::res://aseets/Musics/ahhhhh-cartoon-death-scream-dan-barracuda-1-00-03.mp3<>uid://c6euy0naan83a::::res://aseets/Musics/walking-on-leaves-260279.mp3<>uid://bgepyw3aa4elw::::res://aseets/Musics/sword-sound-260274.mp3<>uid://5ma8xioa3afu::::res://aseets/Musics/male_hurt7-48124.mp3
+portal.tscn::PackedScene::6650823230465739718::1740238426::0::1::::<><>::res://scripts/portal.gd<>uid://i3odult4w3f8::::res://aseets/gate rotating.png<>uid://br0atump4thbc::::res://aseets/default gate.png<>uid://bqb22y20by8xv::::res://aseets/gate start.png<>uid://c71xv86y1hwwf::::res://aseets/Musics/opening_Portal.mp3
+pottery.tscn::PackedScene::4887570365523023110::1740231839::0::1::::<><>::uid://bmk6dnxfo55r6::::res://aseets/backround game/breaking potery.png<>res://scripts/pottery.gd<>uid://dtv58ukjyjhn7::::res://aseets/Musics/breaking-a-vase-remix-87091.mp3
+save_point.tscn::PackedScene::5354100986237165031::1740238428::0::1::::<><>::res://scripts/save_point.gd<>uid://q0uys5nn2las::::res://aseets/save point sprite set.png<>uid://cxplg7mkn0bf5::::res://aseets/unsaved save point.png<>uid://cf45ayr5euwnb::::res://aseets/Musics/ringtone-193209.mp3
+temp.tscn::PackedScene::6983214678616166927::1740238427::0::1::::<><>::uid://cyina6wyvnsw2::::res://aseets/video/loading animation.png
+temple.tscn::PackedScene::4377280059224781266::1740238427::0::1::::<><>::uid://b1d3lchibnscl::::res://aseets/castle backround.png<>res://scripts/temple.gd<>uid://bc41oc423obf8::::res://aseets/stone tile set.png<>uid://dk18njklrtbkw::::res://aseets/ganapati.png<>uid://rnump7ont8yo::::res://scean/player.tscn<>uid://ds3abad3y001c::::res://scean/coin.tscn<>res://scripts/change_scene.gd<>uid://02l8wurh0gx4::::res://aseets/mashall.png<>uid://dl6myoxe75hqi::::res://aseets/tantrik.png<>res://scripts/tantrik_2.gd<>uid://d2k83jo6d228l::::res://aseets/pngwing.com.png<>uid://b3jw8qvdt8o1c::::res://scean/pillers with shadow.tscn<>uid://crojx4qcr3oad::::res://scean/gate.tscn<>uid://67rh7n2otokj::::res://aseets/Musics/Slow Sitar & Tabla Indian Music (No Copyright).mp3<>uid://cllkc1x1t7mvk::::res://aseets/loading screen.png<>uid://2qa35uiwrfdt::::res://scean/heal.tscn
+temple_new.tscn::PackedScene::1616849039121659579::1740231839::0::1::::<><>::uid://brefh8iltkeaj::::res://aseets/castle backround.png<>uid://c35dijinge5dv::::res://aseets/castle backround pillers.png<>uid://7uhfd3ahusf3::::res://aseets/mashall.png<>uid://mfmg7ol3tt::::res://aseets/ganapati.png<>uid://bpxorvaq0tqxo::::res://aseets/stone tile set.png<>uid://rnump7ont8yo::::res://scean/player.tscn
+tile_map_new.tscn::PackedScene::1754895611603865332::1740238422::0::1::::<><>::uid://blinjmvn72io3::::res://aseets/backround game/tile set.png<>uid://d2oeatthopvhj::::res://aseets/backround game/grass 1.png<>uid://cq7g0ojue8nhw::::res://aseets/more assets/5.png<>uid://1sj8c6pqedhb::::res://aseets/backround game/obstacles/cactus.png<>uid://cbi7r6gri8f61::::res://aseets/backround game/obstacles/tree.png<>uid://x7k6bubu8hhd::::res://aseets/backround game/obstacles/obstacle.png<>uid://dhma0lysp6ngr::::res://aseets/backround game/obstacles/trees poison.png<>uid://006xgdago01k::::res://aseets/backround game/obstacles/stone 1.png<>uid://dx7mxh5qw3t0l::::res://aseets/backround game/obstacles/stone 3.png<>uid://dpigafqrh1iru::::res://aseets/backround game/obstacles/stone 2.png<>uid://y6goganls4jg::::res://aseets/backround game/new backround.jpg<>uid://vl64w8ccf2o7::::res://aseets/backround game/obstacles/pottery 2.png<>uid://b4q15ws7ipesw::::res://aseets/backround game/tree 4.png<>uid://btgkwb87ysghs::::res://aseets/backround game/obstacles/pottery 1.png<>uid://bsn24wrk5hh8y::::res://aseets/backround game/tree 3.png<>uid://b1nfxfjj528gd::::res://aseets/backround game/tree 2.png<>uid://nupjg5dxpjsw::::res://aseets/backround game/moon.png<>uid://wnhsaw00drsw::::res://aseets/backround game/tree 1.png<>uid://eliapma7o2dn::::res://aseets/backround game/obstacles/wall 1.png<>uid://v7ecs5qshr0d::::res://aseets/sky backround.png<>uid://cbvttmy47wnac::::res://scean/pottery.tscn<>uid://dvglstwjf2hfy::::res://aseets/lower ground backround.png<>uid://caelln6gcpa02::::res://aseets/new tress grass assets/tree trunk 1.png<>uid://crngo0i7qhcdg::::res://aseets/new tress grass assets/grass small 1.png<>uid://djdexk2wo5bfy::::res://aseets/new tress grass assets/small grass 3.png<>uid://2aub3t0u35y8::::res://aseets/new tress grass assets/grass small 2.png<>uid://b3jw8qvdt8o1c::::res://scean/pillers with shadow.tscn<>uid://cdl0c8mymg28r::::res://scean/axe.tscn<>uid://u8twrqq0rsth::::res://aseets/more assets/4.png<>uid://7hd57ffgg8cj::::res://aseets/more assets/6.png<>uid://b5cbch33mx2bq::::res://aseets/more assets/3.png<>uid://bk6yi27hkneq6::::res://aseets/more assets/1.png<>uid://bldm65q5nm54w::::res://aseets/more assets/2.png
+troll.tscn::PackedScene::458220772664681544::1740238424::0::1::::<><>::uid://cnk2f30kc8n1f::::res://aseets/troll attack.png<>res://scripts/troll.gd<>uid://db5spvhe658yg::::res://aseets/troll die.png<>uid://5fv464ga8oba::::res://aseets/run.png<>uid://bbfbaend3jv3v::::res://aseets/troll walk.png
+wheel.tscn::PackedScene::1381892239127273603::1740238428::0::1::::<><>::uid://d0j2kb86b0y3e::::res://aseets/backround game/obstacles/obstacle 3.png
+::res://scripts/::1740238420
+axe.gd::GDScript::-1::1740231840::0::1::::<>Node2D<>::
+betal.gd::GDScript::-1::1740231840::0::1::::<>Node2D<>::
+change_scene.gd::GDScript::-1::1740238420::0::1::::<>Area2D<>::
+coin.gd::GDScript::-1::1740231840::0::1::::<>Area2D<>::
+falling_piller.gd::GDScript::-1::1740231840::0::1::::<>Area2D<>::
+GameData.gd::GDScript::-1::1740231840::0::1::::<>Node<>::
+heal.gd::GDScript::-1::1740231840::0::1::::<>Area2D<>::
+health.gd::GDScript::-1::1740231840::0::1::::<>HBoxContainer<>::
+health_container.gd::GDScript::-1::1740231841::0::1::::<>HBoxContainer<>::
+key.gd::GDScript::-1::1740231841::0::1::::<>Area2D<>::
+killzone.gd::GDScript::-1::1740231841::0::1::::<>Area2D<>::
+main_menu.gd::GDScript::-1::1740237277::0::1::::<>Control<>::
+moving_ax.gd::GDScript::-1::1740231841::0::1::::<>Area2D<>::
+pirate.gd::GDScript::-1::1740231841::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1740236620::0::1::::<>CharacterBody2D<>::
+portal.gd::GDScript::-1::1740231841::0::1::::<>Area2D<>::
+pottery.gd::GDScript::-1::1740231841::0::1::::<>Area2D<>::
+save_point.gd::GDScript::-1::1740231841::0::1::::<>Area2D<>::
+tantrik_2.gd::GDScript::-1::1740231841::0::1::::<>Area2D<>::
+temple.gd::GDScript::-1::1740231841::0::1::::<>Node2D<>::
+troll.gd::GDScript::-1::1740231842::0::1::::<>Node2D<>::
