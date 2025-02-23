@@ -1,11 +1,11 @@
+AudioStreamPlayer2D
+AnimatedSprite2D
+Button
 TextureRect
 CanvasLayer
 Node
-Button
-AudioStreamPlayer2D
 Label
 CollisionShape2D
-AnimatedSprite2D
 HBoxContainer
 Timer
 AnimationPlayer

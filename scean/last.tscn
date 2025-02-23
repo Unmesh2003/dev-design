@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp4mjex3td0as"]
+
+[ext_resource type="Script" path="res://scripts/last.gd" id="1_8u41h"]
+[ext_resource type="Texture2D" uid="uid://dhkp4iwcmyclf" path="res://aseets/more assets/last scean.jpg" id="2_fcdtg"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_8u41h")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+offset_right = 1080.0
+offset_bottom = 616.0
+texture = ExtResource("2_fcdtg")
+
+[node name="Button" type="Button" parent="CanvasLayer/TextureRect"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 807.0
+offset_top = 835.0
+offset_right = 1167.0
+offset_bottom = 907.0
+
+[connection signal="pressed" from="CanvasLayer/TextureRect/Button" to="." method="_on_button_pressed"]

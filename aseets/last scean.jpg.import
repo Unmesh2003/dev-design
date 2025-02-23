@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n1cva07rguxa"
-valid=false
+path="res://.godot/imported/last scean.jpg-200f0af9df8eff61bdb5c4b750c3f027.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://aseets/last scean.jpg"
+dest_files=["res://.godot/imported/last scean.jpg-200f0af9df8eff61bdb5c4b750c3f027.ctex"]
 
 [params]
 

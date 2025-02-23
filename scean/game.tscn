@@ -1875,7 +1875,7 @@ limit_left = -6200
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("10_1dse3")
-volume_db = -17.623
+volume_db = -25.623
 autoplay = true
 max_distance = 80000.0
 area_mask = 255
@@ -1930,9 +1930,6 @@ position = Vector2(47367, 1628)
 
 [node name="kallu9" parent="kalluas" instance=ExtResource("4_7h180")]
 position = Vector2(29042, 1056)
-
-[node name="kallu10" parent="kalluas" instance=ExtResource("4_7h180")]
-position = Vector2(22944, 319)
 
 [node name="kallu11" parent="kalluas" instance=ExtResource("4_7h180")]
 position = Vector2(12663, 907)

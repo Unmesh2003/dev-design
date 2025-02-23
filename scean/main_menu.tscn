@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://dbbxn2eo1xxa2"]
+[gd_scene load_steps=16 format=3 uid="uid://dbbxn2eo1xxa2"]
 
 [ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_vwi1w"]
 [ext_resource type="Texture2D" uid="uid://cllkc1x1t7mvk" path="res://aseets/loading screen.png" id="2_h167k"]
@@ -14,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://cnny8sjpfjmtx" path="res://aseets/UI UX designs/Credits.jpg" id="11_uhrdb"]
 [ext_resource type="Texture2D" uid="uid://v5gmfwo1ht3b" path="res://aseets/UI UX designs/Future Plans.jpg" id="12_kypcf"]
 [ext_resource type="Texture2D" uid="uid://cfvtmuuhpfdco" path="res://aseets/UI UX designs/DEVELOPMENTS.jpg" id="13_a48rk"]
+[ext_resource type="AudioStream" uid="uid://dku6qic1j224o" path="res://aseets/Musics/menu.mp3" id="15_esu0d"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -44,6 +45,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="TextureRect" type="TextureRect" parent="."]
 visible = false
@@ -497,6 +500,12 @@ offset_top = -0.0159912
 offset_right = -0.184021
 offset_bottom = 0.104004
 theme_override_font_sizes/font_size = 30
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_esu0d")
+volume_db = -26.667
+autoplay = true
+area_mask = 255
 
 [connection signal="pressed" from="logo/ToMenu" to="." method="_on_to_menu_pressed"]
 [connection signal="pressed" from="TextureRect/play" to="." method="_on_play_pressed"]

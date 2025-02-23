@@ -225,6 +225,7 @@ offset_right = -0.0600128
 offset_bottom = 0.0449829
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 300
+action_mode = 0
 
 [node name="loading" type="TextureRect" parent="."]
 visible = false

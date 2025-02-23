@@ -2690,20 +2690,6 @@ rotation = 0.837758
 scale = Vector2(0.792035, 0.753911)
 texture = ExtResource("6_t51mt")
 
-[node name="Sprite2D7" type="Sprite2D" parent="poisonous tree brache/poisonous tree branch40"]
-z_index = -3
-position = Vector2(-2450.74, -348.529)
-rotation = -2.06298
-scale = Vector2(0.792035, 0.753911)
-texture = ExtResource("6_t51mt")
-
-[node name="Sprite2D8" type="Sprite2D" parent="poisonous tree brache/poisonous tree branch40"]
-z_index = -3
-position = Vector2(-7799.44, -3311.76)
-rotation = -2.06298
-scale = Vector2(0.792035, 0.753911)
-texture = ExtResource("6_t51mt")
-
 [node name="Sprite2D6" type="Sprite2D" parent="poisonous tree brache/poisonous tree branch40"]
 z_index = -3
 position = Vector2(510.003, -58.9451)
@@ -2911,13 +2897,6 @@ texture = ExtResource("6_t51mt")
 z_index = -3
 position = Vector2(-375.455, -288.318)
 rotation = 0.837758
-scale = Vector2(0.792035, 0.753911)
-texture = ExtResource("6_t51mt")
-
-[node name="Sprite2D7" type="Sprite2D" parent="poisonous tree brache/poisonous tree branch36"]
-z_index = -3
-position = Vector2(-2943.54, 935.341)
-rotation = -3.32485
 scale = Vector2(0.792035, 0.753911)
 texture = ExtResource("6_t51mt")
 
@@ -5158,13 +5137,13 @@ scale = Vector2(1.525, 1.525)
 texture = ExtResource("30_23ego")
 
 [node name="3" type="Sprite2D" parent="."]
-position = Vector2(55975, 7148)
-scale = Vector2(1.55505, 1.55505)
+position = Vector2(55961.5, 7169.5)
+scale = Vector2(1.49313, 1.522)
 texture = ExtResource("31_hufmu")
 
 [node name="12" type="Sprite2D" parent="."]
-position = Vector2(59764, -6512)
-scale = Vector2(1.55505, 1.55505)
+position = Vector2(59766, -6497.88)
+scale = Vector2(1.56422, 1.61153)
 texture = ExtResource("31_hufmu")
 
 [node name="13" type="Sprite2D" parent="."]

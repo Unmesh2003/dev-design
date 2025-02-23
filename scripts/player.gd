@@ -159,6 +159,7 @@ func take_damage(amount: int,direct=null,) -> void:
 	health -= amount
 	dying=true
 	animated_sprite.play("die")
+	audio_stream_player_2d.play()
 	health = max(health, 0)
 	health_container.update_items(health)
 	GameData.health = health
@@ -208,21 +209,24 @@ func _on_animated_sprite_2d_animation_finished() -> void:
 		knock_backing = false
 		velocity.x = 0
 	elif animated_sprite.animation == "die":
+		audio_stream_player_2d.stop()
 		if health > 0:
 			position = GameData.save_point
 			dying = false
 			dead = true
 			animated_sprite.play("spawn")
-		else:
-			audio_hit.stop()
-			dead = true
-			dying = false
-			health = 5
-			position = GameData.save_point
-			GameData.health = health
-			health_container.update_items(health)
-			animated_sprite.play("spawn")
-			spawning = true
+		elif health==0: 
+			get_tree().change_scene_to_file("res://scean/temple.tscn")
+			GameData.save_point= Vector2(-1600, 1034)
+			#audio_hit.stop()
+			#dead = true
+			#dying = false
+			#health = 5
+			#position = GameData.save_point
+			#GameData.health = health
+			#health_container.update_items(health)
+			#animated_sprite.play("spawn")
+			#spawning = true
 
 func _on_timer_timeout() -> void:
 	dash_active = true

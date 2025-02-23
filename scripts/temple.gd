@@ -5,6 +5,10 @@ var dialogs = [
 	{"speaker": "player", "text": "Hi! Who are you?"},
 	{"speaker": "npc", "text": "I'm the Tantrik"},
 	{"speaker": "player", "text": "Nice to meet you!"},
+	{"speaker": "npc", "text": "Vikram, venture into Kalighati Jungle and bring me the spirit, Betal!"},
+	{"speaker": "player", "text": "If that is your wish, consider it done!"},
+	{"speaker": "npc", "text": "Beware! He speaks in riddles—answer wrong, and he stays with you… answer right, and he escapes!"},
+	{"speaker": "player", "text": "Then I shall bind him with silence and strength!"},
 ]
 var index=0
 #d=dialogs[1]
